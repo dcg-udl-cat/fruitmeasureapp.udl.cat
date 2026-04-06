@@ -1,0 +1,53 @@
+metadata-files:
+  - _brand.yml
+ 
+project:
+  type: website
+  output-dir: docs
+ 
+website:
+  favicon: assets/logos/logo_color.png
+  search: true
+  title: "FruitMeasureApp"
+  open-graph: true
+  twitter-card: true
+ 
+  navbar:
+    logo: assets/logos/logo.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: pages/team/index.qmd
+        text: Team
+      - href: pages/general/info.qmd
+        text: Resources
+      - href: pages/project/getting-started.qmd
+        text: Documentation
+      - href: pages/general/about.qmd
+        text: About
+      - href: pages/project/changelog.qmd
+        text: Changelog
+      - href: pages/general/credits.qmd
+        text: Credits
+ 
+  page-footer:
+    left: "© 2026 FruitMeasureApp - Inspired by [quarto.org](https://quarto.org) design"
+    right:
+      - "University of Lleida - Institute of Agrifood Research and Technology"
+      - icon: github
+        href: https://github.com/dcg-udl-cat/fruitmeasureapp
+ 
+  repo-url: https://github.com/dcg-udl-cat/fruitmeasureapp
+  repo-actions: [issue]
+ 
+format:
+  html:
+    theme:
+      light: [cosmos, assets/styles/theme-light.scss]
+      dark:  [cosmos, assets/styles/theme-dark.scss]
+    css: assets/styles/custom.css
+    toc: false
+    page-layout: full
+    highlight-style: github
+
+ 
