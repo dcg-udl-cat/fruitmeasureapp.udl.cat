@@ -19,7 +19,7 @@ website:
         text: Home
       - href: pages/team/index.qmd
         text: Team
-      - href: pages/general/info.qmd
+      - href: pages/general/resources.qmd
         text: Resources
       - href: pages/project/getting-started.qmd
         text: Documentation
