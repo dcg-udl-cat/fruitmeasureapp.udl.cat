@@ -27,9 +27,11 @@ website:
         text: About
       - href: pages/project/changelog.qmd
         text: Changelog
+      - href: pages/blog/index.qmd
+        text: News
       - href: pages/general/credits.qmd
         text: Credits
- 
+  
   page-footer:
     left: "© 2026 FruitMeasureApp - Inspired by [quarto.org](https://quarto.org) design"
     right:
