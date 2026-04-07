@@ -6,7 +6,7 @@ project:
   output-dir: docs
  
 website:
-  favicon: assets/logos/logo_color.png
+  favicon: assets/logos/logo.png
   search: true
   title: "FruitMeasureApp"
   open-graph: true
