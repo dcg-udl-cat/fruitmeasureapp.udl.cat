@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "pages/blog/index.html",
+    "href": "pages/blog/index.html",
+    "title": "News",
+    "section": "",
+    "text": "News\nLatest updates from FruitMeasureApp, including releases, research progress, and field testing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst public release of FruitMeasureApp\n\n\n\nrelease\n\n\n\nFruitMeasureApp is now available on mobile platforms.\n\n\n\n\n\nMar 10, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/general/about.html",
+    "href": "pages/general/about.html",
+    "title": "About",
+    "section": "",
+    "text": "FruitMeasureApp is a mobile application based on artificial intelligence designed to estimate fruit size directly from smartphone images, supporting decision-making in precision agriculture.\n\n\n\ninfographic\n\n\nThe project focuses on providing a simple, fast, and reliable tool for measuring fruit diameter in real field conditions.\n\nTODO: Add information supporting the infographic, motivation, and impact of the project. This can include specific examples of how the app can be used in practice, as well as any preliminary results or case studies demonstrating its effectiveness.\n\n\n\nFruitMeasureApp is part of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.\nThe main objectives include:\n\nPrototyping and improving the mobile application\n\nValidating and evaluating the technology\n\nDemonstrating real use cases in fruit growing\n\nSupporting technology transfer and dissemination\n\n\n\n\nThis project is a collaboration between:\n\nUniversitat de Lleida\n\nInstitut de Recerca i Tecnologia Agroalimentàries (IRTA)\n\nIt is developed within the framework of publicly funded research and innovation programs, including support from:\n\nGeneralitat de Catalunya\n\nMinisterio de Agricultura, Pesca y Alimentación\n\nEuropean Union (CAP 2023–2027 framework)\n\n\nTODO: - Add research group name\n- Add principal investigator(s)\n- Add official funding program names if needed\n\n\n\n\nFruitMeasureApp is expected to:\n\nReduce time and labor required for fruit measurement\n\nImprove consistency and reduce human error\n\nSupport data-driven decision-making in orchards\n\nFacilitate the transition to digital and precision agriculture\n\n\nTODO: - Add real-world deployment examples or pilot studies\n\n\n\n\n\nActive research and development project (2024–2026)\n\nMobile application published for public use\n\nIncludes model inference and training pipelines\n\n\nTODO: - Add release date\n- Add store links (Google Play / App Store)\n- Clarify current maturity level (e.g., prototype, beta, stable)\n\n\n\n\n\nGitHub repository: https://github.com/GRAP-UdL-AT/FruitMeasureApp\n\n\nTODO: - Add documentation link\n- Add scientific publications (when available)\n- Add citation format\n\n\n\n\n\nTODO: - Add specific roadmap items"
+  },
+  {
+    "objectID": "pages/general/about.html#project-context",
+    "href": "pages/general/about.html#project-context",
+    "title": "About",
+    "section": "",
+    "text": "FruitMeasureApp is part of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.\nThe main objectives include:\n\nPrototyping and improving the mobile application\n\nValidating and evaluating the technology\n\nDemonstrating real use cases in fruit growing\n\nSupporting technology transfer and dissemination"
+  },
+  {
+    "objectID": "pages/general/about.html#institutions-and-collaboration",
+    "href": "pages/general/about.html#institutions-and-collaboration",
+    "title": "About",
+    "section": "",
+    "text": "This project is a collaboration between:\n\nUniversitat de Lleida\n\nInstitut de Recerca i Tecnologia Agroalimentàries (IRTA)\n\nIt is developed within the framework of publicly funded research and innovation programs, including support from:\n\nGeneralitat de Catalunya\n\nMinisterio de Agricultura, Pesca y Alimentación\n\nEuropean Union (CAP 2023–2027 framework)\n\n\nTODO: - Add research group name\n- Add principal investigator(s)\n- Add official funding program names if needed"
+  },
+  {
+    "objectID": "pages/general/about.html#impact",
+    "href": "pages/general/about.html#impact",
+    "title": "About",
+    "section": "",
+    "text": "FruitMeasureApp is expected to:\n\nReduce time and labor required for fruit measurement\n\nImprove consistency and reduce human error\n\nSupport data-driven decision-making in orchards\n\nFacilitate the transition to digital and precision agriculture\n\n\nTODO: - Add real-world deployment examples or pilot studies"
+  },
+  {
+    "objectID": "pages/general/about.html#project-status",
+    "href": "pages/general/about.html#project-status",
+    "title": "About",
+    "section": "",
+    "text": "Active research and development project (2024–2026)\n\nMobile application published for public use\n\nIncludes model inference and training pipelines\n\n\nTODO: - Add release date\n- Add store links (Google Play / App Store)\n- Clarify current maturity level (e.g., prototype, beta, stable)"
+  },
+  {
+    "objectID": "pages/general/about.html#open-source-and-resources",
+    "href": "pages/general/about.html#open-source-and-resources",
+    "title": "About",
+    "section": "",
+    "text": "GitHub repository: https://github.com/GRAP-UdL-AT/FruitMeasureApp\n\n\nTODO: - Add documentation link\n- Add scientific publications (when available)\n- Add citation format"
+  },
+  {
+    "objectID": "pages/general/about.html#future-work",
+    "href": "pages/general/about.html#future-work",
+    "title": "About",
+    "section": "",
+    "text": "TODO: - Add specific roadmap items"
+  },
+  {
+    "objectID": "pages/general/credits.html",
+    "href": "pages/general/credits.html",
+    "title": "Credits",
+    "section": "",
+    "text": "FruitMeasureApp has been developed by the University of Lleida (UdL) and the Institute of Agrifood Research and Technology (IRTA) within the framework of the demonstrative project FruitMeasureApp: Validació i prototipatge d’una aplicació mòbil basada en IA per mesurar fruits en camp (Activity co-financed by the EU through intervention 7201 of the PAC Strategic Plan 2023-2027)."
+  },
+  {
+    "objectID": "pages/blog/posts/10_03_2026_first_release.html",
+    "href": "pages/blog/posts/10_03_2026_first_release.html",
+    "title": "First public release of FruitMeasureApp",
+    "section": "",
+    "text": "We are pleased to announce the first public release of FruitMeasureApp.\nThis version includes:\n\nMobile application (Android and iOS)\n\nAI-based fruit detection and measurement\n\nSupport for multiple fruits per image\n\nCalibration using a reference marker"
+  },
+  {
+    "objectID": "pages/blog/posts/10_03_2026_first_release.html#first-release",
+    "href": "pages/blog/posts/10_03_2026_first_release.html#first-release",
+    "title": "First public release of FruitMeasureApp",
+    "section": "",
+    "text": "We are pleased to announce the first public release of FruitMeasureApp.\nThis version includes:\n\nMobile application (Android and iOS)\n\nAI-based fruit detection and measurement\n\nSupport for multiple fruits per image\n\nCalibration using a reference marker"
+  },
+  {
+    "objectID": "pages/blog/posts/10_03_2026_first_release.html#whats-next",
+    "href": "pages/blog/posts/10_03_2026_first_release.html#whats-next",
+    "title": "First public release of FruitMeasureApp",
+    "section": "What’s next",
+    "text": "What’s next\nFuture updates will focus on:\n\nImproving accuracy\n\nExpanding supported crops\n\nEnhancing usability in field conditions"
+  },
+  {
+    "objectID": "pages/project/changelog.html",
+    "href": "pages/project/changelog.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Development and releases are tracked on GitHub:"
+  },
+  {
+    "objectID": "pages/project/changelog.html#version-1.0.0",
+    "href": "pages/project/changelog.html#version-1.0.0",
+    "title": "Changelog",
+    "section": "Version 1.0.0",
+    "text": "Version 1.0.0\n\nFlutter App\nInitial public release of FruitMeasureApp\n\nMobile application available on Android and iOS\n\nAI-based fruit detection and diameter estimation from images\n\nSupport for single and multiple fruit measurements\n\nIntegration of reference marker for geometric calibration\n\nDesigned for real field conditions\n\n\n\nModels\n\nFirst version of the inference pipeline implemented\n\nTraining pipeline available\n\nSupport for:\n\nFruit mode\n\nCorimbe mode"
+  },
+  {
+    "objectID": "pages/project/changelog.html#notes",
+    "href": "pages/project/changelog.html#notes",
+    "title": "Changelog",
+    "section": "Notes",
+    "text": "Notes\n\nThis is the first stable version released to the public\n\nApplication is available in mobile app stores\n\nModel inference and training pipelines are included in this release"
+  },
+  {
+    "objectID": "pages/project/changelog.html#todo",
+    "href": "pages/project/changelog.html#todo",
+    "title": "Changelog",
+    "section": "TODO",
+    "text": "TODO\n\nApp\n\nConfirm exact release date\n\nAdd Google Play link\n\nAdd App Store link\n\nSpecify supported Android/iOS versions\n\nAdd screenshots of the released version\n\n\n\nModel\n\nSpecify model architecture.\nAdd dataset description (size, type, annotation process)\n\nProvide evaluation metrics (e.g., error in mm, accuracy)\n\nDocument training procedure\n\nAdd inference performance details (speed, device requirements)\n\n\n\nFeatures\n\nList supported fruit types\n\nClarify limitations (lighting, occlusion, distance constraints)\n\nAdd calibration details (marker size, assumptions)\n\n\n\nHardware (Support)\n\nAdd STL download links\n\nAdd assembly instructions\n\nDocument recommended usage setup\n\n\n\nDocumentation\n\nLink to full documentation\n\nAdd usage tutorial\n\nAdd FAQ section"
+  }
+]

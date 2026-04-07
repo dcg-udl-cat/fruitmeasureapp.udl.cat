@@ -1,8 +1,0 @@
----
-title: "Member 2"
-role: "Researcher"
-group: "Core Team"
-email: "member2@udl.cat"
-description: "Researcher..."
-image: ../../assets/images/team/user_default.png
----

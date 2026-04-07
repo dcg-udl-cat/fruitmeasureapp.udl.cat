@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/pages/team/index.html",
+    "items": [
+      "/pages/team/member1.html",
+      "/pages/team/member2.html"
+    ]
+  },
+  {
+    "listing": "/pages/blog/index.html",
+    "items": [
+      "/pages/blog/posts/10_03_2026_first_release.html"
+    ]
+  }
+]
