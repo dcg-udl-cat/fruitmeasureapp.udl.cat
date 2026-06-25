@@ -1,9 +1,0 @@
----
-title: "Team"
-listing:
-  contents: .
-  type: grid
-  fields: [title, role, description, image, email]
----
-
-## Meet the Team

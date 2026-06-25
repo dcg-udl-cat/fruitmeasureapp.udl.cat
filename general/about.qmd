@@ -1,0 +1,120 @@
+---
+pagetitle: "About"
+page-layout: custom
+section-divs: false
+toc: false
+---
+
+
+::: {.page-title-band}
+# About
+:::
+
+```{=html}
+<div class="about-hero">
+  <div class="about-hero-image">
+    <img src="../assets/images/pexels-herry-11466481.jpg" alt="Apple on tree"/>
+  </div>
+  <div class="about-hero-text">
+    <p>FruitMeasureApp is a mobile application based on artificial intelligence designed to estimate fruit size directly from smartphone images, supporting decision-making in precision agriculture.</p>
+    <p>This project is part of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.</p>
+  </div>
+</div>
+```
+
+::: {.section-dark}
+::: {.section-inner--wide}
+
+## The main objectives
+
+```{=html}
+<div class="icon-grid">
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_prototyping.png" alt=""/>
+    <p>Prototyping and improving the mobile application</p>
+  </div>
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_validating.png" alt=""/>
+    <p>Validating and evaluating the technology</p>
+  </div>
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_demonstrating.png" alt=""/>
+    <p>Demonstrating real use cases in fruit growing</p>
+  </div>
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_supporting.png" alt=""/>
+    <p>Supporting technology transfer and dissemination</p>
+  </div>
+</div>
+```
+
+:::
+:::
+
+::: {.section-light}
+::: {.section-inner--wide}
+
+## Impact
+
+```{=html}
+<div class="icon-grid">
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_reduce_time.png" alt=""/>
+    <p>Reduce time and labour required for fruit measurement</p>
+  </div>
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_consistency.png" alt=""/>
+    <p>Improve consistency and reduce human error</p>
+  </div>
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_data_driven.png" alt=""/>
+    <p>Support data-driven decision-making in orchards</p>
+  </div>
+  <div class="icon-grid-item">
+    <img src="../assets/icons/icon_digital.png" alt=""/>
+    <p>Facilitate the transition to digital agriculture</p>
+  </div>
+</div>
+```
+
+:::
+:::
+
+::: {.section-light style="padding-top: 2rem;"}
+::: {.section-inner}
+
+## Project status
+
+- Active research and development project (2024–2026).
+- Mobile application published for public use.
+- Includes model inference and training pipelines.
+
+:::
+:::
+
+::: {.section-light style="padding-top: 2rem;"}
+
+## Institutions and collaboration
+
+<p>This project is a collaboration between:</p>
+
+
+
+```{=html}
+<div class="credits-logos" style="padding-bottom: 3rem;">
+  <div class="credits-logos-row">
+    <img src="../assets/logos/logo_udl.png" alt="Universitat de Lleida"/>
+    <img src="../assets/logos/logo_irta.png" alt="IRTA"/>
+  </div>
+</div>
+<div style="max-width: var(--fm-inner-max); margin: 0 auto; padding: 0 2rem 1rem; font-size: clamp(1rem, 1.4vw, 1.1rem); color: var(--fm-text);">
+<p>Translation: "Activity co-funded by the EU through intervention 7201 of the CAP Strategic Plan 2023-2027."</p>
+</div>
+<div class="credits-logos" style="padding-bottom: 5rem;">
+  <div class="credits-logos-row">
+    <img src="../assets/logos/logo_agricultura.png" alt="Departament d'Agricultura"/>
+    <img src="../assets/logos/logo_ministerio.png" alt="Ministerio de Agricultura"/>
+    <img src="../assets/logos/logo_eu.png" alt="Cofinançat per la Unió Europea"/>
+  </div>
+</div>
+```

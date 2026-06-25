@@ -1,0 +1,134 @@
+---
+pagetitle: "Resources — FruitMeasureApp"
+page-layout: custom
+section-divs: false
+toc: false
+---
+
+::: {.page-title-band}
+# Resources
+:::
+
+::: {.section-dark}
+::: {.section-inner--wide}
+::: {.resource-stick}
+
+::: {.resource-stick-text}
+
+## FruitMeasure Stick
+
+The FruitMeasure Stick is required to capture all the photos for the FruitMeasureApp.
+
+::: {.resource-stick-buttons}
+[Get the 3D model file](../../assets/suport3D/FruitMeasureStick_3D_stl.zip){.btn-store .btn-store--outline}
+[How to assemble it](#){.btn-store .btn-store--outline}
+[Where to print it](#){.btn-store .btn-store--outline}
+:::
+
+:::
+
+::: {.resource-stick-image}
+![](../assets/images/foto_soporte_FruitMeasureApp.jpeg)
+:::
+
+:::
+:::
+:::
+
+
+::: {.section-light}
+::: {.section-inner}
+::: {.resource-block}
+
+## Get the user guide
+
+Get the complete user's guide to resolve any doubts and understand more deeply how FruitMeasureApp works.
+
+[Download the FruitMeasureApp guide →](../../assets/pdfs/Manual_usuari_EN.pdf){.resource-link}
+
+:::
+:::
+:::
+
+<hr class="section-divider"/>
+
+::: {.section-light style="padding-top: 3rem; padding-bottom: 3rem;"}
+::: {.section-inner}
+::: {.resource-block}
+
+## Try FruitMeasureApp
+
+[Get images →](#){.resource-link}
+
+:::
+:::
+:::
+
+<hr class="section-divider"/>
+
+::: {.section-light .section-model-top}
+::: {.section-inner--wide}
+
+## Explore the AI model {style="text-align:center;"}
+
+::: {.model-intro}
+The app uses a convolutional neural network (CNN) for fruit detection and segmentation, combined with geometric calibration using a reference marker.
+:::
+
+::: {.model-columns}
+
+::: {}
+**Pipeline:** Calibrate → Capture → Detect → Measure
+
+## Run inference mode Fruit
+
+```bash
+python main.py --mode Fruit --image example_images/IMG_20240828_122454.jpg
+```
+
+## Run inference mode Cluster
+
+```bash
+python main.py --mode Cluster --image example_images/IMG_20240828_122454.jpg
+```
+:::
+
+::: {}
+
+## Optional Arguments
+
+::: {.code-tag}
+--dist_fruit2cam
+:::
+
+Distance (mm) from fruit to camera (default: 250 mm)
+
+## Output
+
+::: {.output-row}
+[*_results.csv]{.code-tag} → The diameter plus the confidence
+:::
+::: {.output-row}
+[*_mask_dets.jpg]{.code-tag} → Segmentation
+:::
+::: {.output-row}
+[*_bb_dets.jpg]{.code-tag} → Create the bounding boxes
+:::
+
+:::
+
+:::
+:::
+:::
+
+<!-- GALLERY — raw HTML so Quarto doesn't wrap images in column divs -->
+
+```{=html}
+<div class="section-gallery">
+  <div class="resource-gallery">
+    <img src="../../assets/images/resources/foto1.jpg" alt="App screenshot 1"/>
+    <img src="../../assets/images/resources/foto2.jpg" alt="App screenshot 2"/>
+    <img src="../../assets/images/resources/foto3.png" alt="App screenshot 3"/>
+  </div>
+</div>
+```

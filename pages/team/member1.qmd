@@ -1,8 +1,0 @@
----
-title: "Member 1"
-role: "Principal Investigator and Project Leader"
-group: "Core Team"
-email: "member1@udl.cat"
-description: "Project manager and lead researcher..."
-image: ../../assets/images/team/user_default.png
----

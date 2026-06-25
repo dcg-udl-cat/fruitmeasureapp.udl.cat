@@ -3,7 +3,7 @@ metadata-files:
  
 project:
   type: website
-  output-dir: docs
+  output-dir: docs/en
  
 website:
   favicon: assets/logos/logo.png
@@ -17,36 +17,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: pages/team/index.qmd
-        text: Team
-      - href: pages/general/resources.qmd
+      - href: general/resources.qmd
         text: Resources
-      - href: pages/project/getting-started.qmd
-        text: Documentation
-      - href: pages/general/about.qmd
+      - href: general/about.qmd
         text: About
-      - href: pages/project/changelog.qmd
-        text: Changelog
-      - href: pages/blog/index.qmd
-        text: News
-      - href: pages/general/credits.qmd
+      - href: general/credits.qmd
         text: Credits
-  
+
   page-footer:
-    left: "© 2026 FruitMeasureApp - Inspired by [quarto.org](https://quarto.org) design"
     right:
-      - "University of Lleida - Institute of Agrifood Research and Technology"
-      - icon: github
-        href: https://github.com/dcg-udl-cat/fruitmeasureapp
- 
-  repo-url: https://github.com/dcg-udl-cat/fruitmeasureapp
-  repo-actions: [issue]
+      - "Universitat de Lleida - Institut de Recerca i Tecnologia Agroalimentàries"
  
 format:
   html:
     theme:
       light: [cosmos, assets/styles/theme-light.scss]
-      dark:  [cosmos, assets/styles/theme-dark.scss]
+      #dark:  [cosmos, assets/styles/theme-dark.scss]
     css: assets/styles/custom.css
     toc: false
     page-layout: full

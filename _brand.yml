@@ -1,14 +1,14 @@
 # TODO: This is a proposed palette and typography for the project. Can be adjusted.
   color:
     palette:
-      crimson: "#D3003F"
-      plum:    "#8A1B59"
-      light:   "#ffffff"
-      dark:    "#1a1a2e"
-    primary:   crimson
-    secondary: plum
-    light:     light
-    dark:      dark
+      fruitmeasureapp: "#9C1C4E"
+      grey:    "#383838"
+      black:   "#000000"
+      white:    "#F5F5F5"
+    primary:   fruitmeasureapp
+    secondary: grey
+    light:     white
+    dark:      black
  
   logo:
     small:  assets/logos/logo.png   # TODO: create a smaller version of the logo for this size
@@ -17,9 +17,9 @@
  
   typography:
     fonts:
-      - family: Inter
+      - family: Lato
         source: google
-    base:     Inter
-    headings: Inter
+    base:     Lato
+    headings: Lato
     monospace: monospace
  
