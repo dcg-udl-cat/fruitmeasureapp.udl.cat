@@ -1,0 +1,16 @@
+lang: ca
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inici
+      - href: general/resources.qmd
+        text: Recursos
+      - href: general/about.qmd
+        text: Sobre nosaltres
+      - href: general/credits.qmd
+        text: Crèdits
+  page-footer:
+    right:
+      - "Universitat de Lleida - Institut de Recerca i Tecnologia Agroalimentàries"

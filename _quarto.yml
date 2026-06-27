@@ -3,39 +3,37 @@ metadata-files:
  
 project:
   type: website
-  output-dir: docs/en
- 
+  output-dir: docs
+
+lang: en
+
 website:
+  site-url: "https://fruitmeasureapp.udl.cat" # for local test change it to "file:///..."
   favicon: assets/logos/logo.png
   search: true
   title: "FruitMeasureApp"
   open-graph: true
   twitter-card: true
  
-  navbar:
-    logo: assets/logos/logo.png
-    left:
-      - href: index.qmd
-        text: Home
-      - href: general/resources.qmd
-        text: Resources
-      - href: general/about.qmd
-        text: About
-      - href: general/credits.qmd
-        text: Credits
-
-  page-footer:
-    right:
-      - "Universitat de Lleida - Institut de Recerca i Tecnologia Agroalimentàries"
- 
 format:
   html:
     theme:
       light: [cosmos, assets/styles/theme-light.scss]
-      #dark:  [cosmos, assets/styles/theme-dark.scss]
-    css: assets/styles/custom.css
+    css: 
+      - assets/styles/custom.css
     toc: false
     page-layout: full
     highlight-style: github
 
- 
+babelquarto:
+  languagelinks: navbar
+  languagecodes:
+    - name: en
+      text: "EN"
+    - name: ca
+      text: "CA"
+    - name: es
+      text: "ES"
+  mainlanguage: "en"
+  languages: ["ca", "es"]
+

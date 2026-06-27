@@ -1,5 +1,5 @@
 ---
-pagetitle: "About"
+pagetitle: "Sobre nosaltres"
 page-layout: custom
 section-divs: false
 toc: false
@@ -7,17 +7,17 @@ toc: false
 
 
 ::: {.page-title-band}
-# About
+# Sobre nosaltres
 :::
 
 ```{=html}
 <div class="about-hero">
   <div class="about-hero-image">
-    <img src="../assets/images/pexels-herry-11466481.jpg" alt="Apple on tree"/>
+    <img src="../assets/images/pexels-herry-11466481.jpg" alt="Poma a l'arbre"/>
   </div>
   <div class="about-hero-text">
-    <p>FruitMeasureApp is a mobile application based on artificial intelligence designed to estimate fruit size directly from smartphone images, supporting decision-making in precision agriculture.</p>
-    <p>This project is part of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.</p>
+    <p>FruitMeasureApp és una aplicació mòbil basada en intel·ligència artificial dissenyada per estimar la mida de la fruita directament a partir d'imatges preses amb smartphones, donant suport a la presa de decisions en l'agricultura de precisió.</p>
+    <p>Aquest projecte forma part d'un projecte de recerca i demostració centrat en la validació i la transferència d'eines basades en IA al sector fructícola.</p>
   </div>
 </div>
 ```
@@ -25,25 +25,25 @@ toc: false
 ::: {.section-dark}
 ::: {.section-inner--wide}
 
-## The main objectives
+## Objectius principals
 
 ```{=html}
 <div class="icon-grid">
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_prototyping.png" alt=""/>
-    <p>Prototyping and improving the mobile application</p>
+    <p>Prototipatge i millora de l'aplicació mòbil</p>
   </div>
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_validating.png" alt=""/>
-    <p>Validating and evaluating the technology</p>
+    <p>Validació i avaluació de la tecnologia</p>
   </div>
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_demonstrating.png" alt=""/>
-    <p>Demonstrating real use cases in fruit growing</p>
+    <p>Demostració de casos d'ús reals en fructicultura</p>
   </div>
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_supporting.png" alt=""/>
-    <p>Supporting technology transfer and dissemination</p>
+    <p>Suport a la transferència tecnològica i la divulgació</p>
   </div>
 </div>
 ```
@@ -54,25 +54,25 @@ toc: false
 ::: {.section-light}
 ::: {.section-inner--wide}
 
-## Impact
+## Impacte
 
 ```{=html}
 <div class="icon-grid">
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_reduce_time.png" alt=""/>
-    <p>Reduce time and labour required for fruit measurement</p>
+    <p>Reduir el temps i la mà d'obra necessaris per a la mesura de fruita</p>
   </div>
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_consistency.png" alt=""/>
-    <p>Improve consistency and reduce human error</p>
+    <p>Millorar la consistència i reduir l'error humà</p>
   </div>
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_data_driven.png" alt=""/>
-    <p>Support data-driven decision-making in orchards</p>
+    <p>Donar suport a la presa de decisions basada en dades als camps</p>
   </div>
   <div class="icon-grid-item">
     <img src="../assets/icons/icon_digital.png" alt=""/>
-    <p>Facilitate the transition to digital agriculture</p>
+    <p>Facilitar la transició cap a l'agricultura digital</p>
   </div>
 </div>
 ```
@@ -83,22 +83,20 @@ toc: false
 ::: {.section-light style="padding-top: 2rem;"}
 ::: {.section-inner}
 
-## Project status
+## Estat del projecte
 
-- Active research and development project (2024–2026).
-- Mobile application published for public use.
-- Includes model inference and training pipelines.
+- Projecte actiu de recerca i desenvolupament (2024–2026).
+- Aplicació mòbil publicada per a ús públic.
+- Inclou pipelines d'inferència i entrenament del model.
 
 :::
 :::
 
 ::: {.section-light style="padding-top: 2rem;"}
 
-## Institutions and collaboration
+## Institucions i col·laboració
 
-<p>This project is a collaboration between:</p>
-
-
+<p>Aquest projecte és una col·laboració entre:</p>
 
 ```{=html}
 <div class="credits-logos" style="padding-bottom: 3rem;">
@@ -108,7 +106,7 @@ toc: false
   </div>
 </div>
 <div style="max-width: var(--fm-inner-max); margin: 0 auto; padding: 0 2rem 1rem; font-size: clamp(1rem, 1.4vw, 1.1rem); color: var(--fm-text);">
-<p>Translation: "Activity co-funded by the EU through intervention 7201 of the CAP Strategic Plan 2023-2027."</p>
+<p>Activitat cofinançada per la UE a través de la intervenció 7201 del Pla Estratègic de la PAC 2023-2027.</p>
 </div>
 <div class="credits-logos" style="padding-bottom: 5rem;">
   <div class="credits-logos-row">

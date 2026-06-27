@@ -1,0 +1,43 @@
+---
+pagetitle: "Créditos — FruitMeasureApp"
+page-layout: custom
+section-divs: false
+toc: false
+---
+
+
+::: {.page-title-band}
+# Créditos
+:::
+
+
+```{=html}
+<div class="credits-body">
+  <p><strong>FruitMeasureApp</strong> ha sido desarrollada por la <a href="https://www.udl.cat/ca/">Universidad de Lleida (UdL)</a> y el <a href="https://www.irta.cat/">Institut de Recerca i Tecnologia Agroalimentàries (IRTA)</a> en el marco del proyecto demostrativo <em>FruitMeasureApp: Validació i prototipatge d'una aplicació mòbil basada en IA per mesurar fruits en camp</em> (Actividad cofinanciada por la UE a través de la intervención 7201 del Plan Estratégico de la PAC 2023-2027).</p>
+</div>
+```
+
+```{=html}
+<div class="credits-logos">
+  <div class="credits-logos-row">
+    <img src="../../assets/logos/logo_udl.png" alt="Universitat de Lleida"/>
+    <img src="../../assets/logos/logo_irta.png" alt="IRTA"/>
+  </div>
+  <div class="credits-logos-row">
+    <img src="../../assets/logos/logo_agricultura.png" alt="Departament d'Agricultura, Ramaderia, Pesca i Alimentació"/>
+    <img src="../../assets/logos/logo_ministerio.png" alt="Ministerio para la Transición Ecológica"/>
+    <img src="../../assets/logos/logo_eu.png" alt="Cofinançat per la Unió Europea"/>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="credits-license">
+  <h2>Licencia YOLO</h2>
+  <p>Esta aplicación incorpora componentes de Ultralytics YOLOv11.</p>
+  <p>YOLOv11 © Ultralytics y colaboradores. Licenciado bajo la Licencia Pública General Affero de GNU v3.0 (AGPL-3.0).</p>
+  <p>Esta aplicación se distribuye sin ninguna garantía.</p>
+  <p>Código fuente disponible en:</p>
+  <p><a href="https://github.com/GRAP-UdL-AT/FruitMeasureApp">https://github.com/GRAP-UdL-AT/FruitMeasureApp</a></p>
+</div>
+```

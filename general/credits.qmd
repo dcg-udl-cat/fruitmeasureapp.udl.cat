@@ -20,13 +20,13 @@ toc: false
 ```{=html}
 <div class="credits-logos">
   <div class="credits-logos-row">
-    <img src="../../assets/logos/logo_udl.png" alt="Universitat de Lleida"/>
-    <img src="../../assets/logos/logo_irta.png" alt="IRTA"/>
+    <img src="../assets/logos/logo_udl.png" alt="Universitat de Lleida"/>
+    <img src="../assets/logos/logo_irta.png" alt="IRTA"/>
   </div>
   <div class="credits-logos-row">
-    <img src="../../assets/logos/logo_agricultura.png" alt="Departament d'Agricultura, Ramaderia, Pesca i Alimentació"/>
-    <img src="../../assets/logos/logo_ministerio.png" alt="Ministerio para la Transición Ecológica"/>
-    <img src="../../assets/logos/logo_eu.png" alt="Cofinançat per la Unió Europea"/>
+    <img src="../assets/logos/logo_agricultura.png" alt="Departament d'Agricultura, Ramaderia, Pesca i Alimentació"/>
+    <img src="../assets/logos/logo_ministerio.png" alt="Ministerio para la Transición Ecológica"/>
+    <img src="../assets/logos/logo_eu.png" alt="Cofinançat per la Unió Europea"/>
   </div>
 </div>
 ```

@@ -1,0 +1,132 @@
+---
+pagetitle: "Recursos — FruitMeasureApp"
+page-layout: custom
+section-divs: false
+toc: false
+---
+
+::: {.page-title-band}
+# Recursos
+:::
+
+::: {.section-dark}
+::: {.section-inner--wide}
+::: {.resource-stick}
+
+::: {.resource-stick-text}
+
+## FruitMeasure Stick
+
+El FruitMeasure Stick es necesario para capturar todas las fotos para FruitMeasureApp.
+
+::: {.resource-stick-buttons}
+[Obtener el archivo 3D](../../assets/suport3D/FruitMeasureStick_3D_stl.zip){.btn-store .btn-store--outline}
+[Cómo ensamblarlo](#){.btn-store .btn-store--outline}
+[Dónde imprimirlo](#){.btn-store .btn-store--outline}
+:::
+
+:::
+
+::: {.resource-stick-image}
+![](../assets/images/foto_soporte_FruitMeasureApp.jpeg)
+:::
+
+:::
+:::
+:::
+
+
+::: {.section-light}
+::: {.section-inner}
+::: {.resource-block}
+
+## Obtén la guía de usuario
+
+Descarga la guía completa del usuario para resolver cualquier duda y entender más en profundidad cómo funciona FruitMeasureApp.
+
+[Descargar la guía de FruitMeasureApp →](../../assets/pdfs/Manual_usuari_EN.pdf){.resource-link}
+
+:::
+:::
+:::
+
+<hr class="section-divider"/>
+
+::: {.section-light style="padding-top: 3rem; padding-bottom: 3rem;"}
+::: {.section-inner}
+::: {.resource-block}
+
+## Prueba FruitMeasureApp
+
+[Obtener imágenes →](#){.resource-link}
+
+:::
+:::
+:::
+
+<hr class="section-divider"/>
+
+::: {.section-light .section-model-top}
+::: {.section-inner--wide}
+
+## Explora el modelo de IA {style="text-align:center;"}
+
+::: {.model-intro}
+La aplicación utiliza una red neuronal convolucional (CNN) para la detección y segmentación de frutas, combinada con calibración geométrica mediante un marcador de referencia.
+:::
+
+::: {.model-columns}
+
+::: {}
+**Pipeline:** Calibrar → Capturar → Detectar → Medir
+
+## Ejecutar modo inferencia Fruit
+
+```bash
+python main.py --mode Fruit --image example_images/IMG_20240828_122454.jpg
+```
+
+## Ejecutar modo inferencia Cluster
+
+```bash
+python main.py --mode Cluster --image example_images/IMG_20240828_122454.jpg
+```
+:::
+
+::: {}
+
+## Argumentos opcionales
+
+::: {.code-tag}
+--dist_fruit2cam
+:::
+
+Distancia (mm) desde la fruta a la cámara (por defecto: 250 mm)
+
+## Salida
+
+::: {.output-row}
+[*_results.csv]{.code-tag} → El diámetro más la confianza
+:::
+::: {.output-row}
+[*_mask_dets.jpg]{.code-tag} → Segmentación
+:::
+::: {.output-row}
+[*_bb_dets.jpg]{.code-tag} → Crear los bounding boxes
+:::
+
+:::
+
+:::
+:::
+:::
+
+```{=html}
+<div class="section-gallery">
+  <div class="resource-gallery">
+    <img src="../assets/images/resources/foto1.jpg" alt="Captura de pantalla de la app 1"/>
+    <img src="../assets/images/resources/foto2.jpg" alt="Captura de pantalla de la app 2"/>
+    <img src="../assets/images/resources/foto3.png" alt="Captura de pantalla de la app 3"/>
+  </div>
+</div>
+```

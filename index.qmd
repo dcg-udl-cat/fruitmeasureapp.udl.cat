@@ -9,7 +9,6 @@ description: |
 hide-description: true
 ---
 
-
 ::: {.hero-banner}
 ::: {.content-block}
 ::: {.hero-text}
@@ -27,7 +26,7 @@ AI-powered fruit size measurement for precision agriculture
 
 :::
 ::: {.hero-media}
-![](assets/images/home/Poma.png)
+![](../assets/images/home/Poma.png)
 :::
 :::
 :::
@@ -54,12 +53,12 @@ AI-powered fruit size measurement for precision agriculture
 ::: {.video-wrapper}
 ```{=html}
 <video autoplay muted playsinline loop>
-  <source src="assets/videos/FruitMeasureApp.mp4" type="video/mp4"/>
+  <source src="../assets/videos/FruitMeasureApp.mp4" type="video/mp4"/>
 </video>
 ```
 :::
 
-[For more information download the FruitMeasureApp guide →](assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
+[For more information download the FruitMeasureApp guide →](../assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
 
 :::
 :::
@@ -76,5 +75,3 @@ AI-powered fruit size measurement for precision agriculture
 
 :::
 :::
-
-

@@ -1,0 +1,15 @@
+lang: en
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: general/resources.qmd
+        text: Resources
+      - href: general/about.qmd
+        text: About
+      - href: general/credits.qmd
+        text: Credits
+  page-footer:
+    right:
+      - "University of Lleida - Institute of Agrifood Research and Technology"

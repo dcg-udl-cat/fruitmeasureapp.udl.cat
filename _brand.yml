@@ -19,7 +19,9 @@
     fonts:
       - family: Lato
         source: google
-    base:     Lato
-    headings: Lato
-    monospace: monospace
+      - family: Space Mono
+        source: google
+    base:      Lato
+    headings:  Lato
+    monospace: "Space Mono"
  
