@@ -9,62 +9,68 @@ toc: false
 # Resources
 :::
 
+
 ::: {.section-dark}
-::: {.section-inner--wide}
-::: {.resource-stick}
-
-::: {.resource-stick-text}
-
-## FruitMeasure Stick
-
-The FruitMeasure Stick is required to capture all the photos for the FruitMeasureApp.
-
-::: {.resource-stick-buttons}
-[Get the 3D model file](../../assets/suport3D/FruitMeasureStick_3D_stl.zip){.btn-store .btn-store--outline}
-[How to assemble it](#){.btn-store .btn-store--outline}
-[Where to print it](#){.btn-store .btn-store--outline}
-:::
-
-:::
-
-::: {.resource-stick-image}
-![](../assets/images/foto_soporte_FruitMeasureApp.jpeg)
-:::
-
-:::
-:::
-:::
-
-
-::: {.section-light}
 ::: {.section-inner}
-::: {.resource-block}
 
 ## Get the user guide
 
 Get the complete user's guide to resolve any doubts and understand more deeply how FruitMeasureApp works.
 
-[Download the FruitMeasureApp guide →](../../assets/pdfs/Manual_usuari_EN.pdf){.resource-link}
+::: {.resource-cta-group}
+[Download the guide →](../assets/pdfs/Manual_usuari_EN.pdf){.btn-store .btn-store--outline}
+[Watch the video tutorial →](../assets/videos/FruitMeasureApp.mp4){.btn-store .btn-store--outline}
+:::
 
 :::
 :::
+
+
+<!-- 2. FRUITMEASURE STICK — light bg, about-hero layout (image + text) -->
+
+::: {.section-light}
+
+```{=html}
+<div class="about-hero">
+  <div class="about-hero-image">
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasure Stick"/>
+  </div>
+  <div class="about-hero-text">
+    <h2>FruitMeasure Stick</h2>
+    <p>The FruitMeasure Stick is required to capture all the photos for the FruitMeasureApp. Print it with a 3D printer and assemble it following the guide.</p>
+    <div class="resource-stick-buttons">
+      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
+      <a href="#" class="btn-store btn-store--filled">How to assemble it</a>
+      <a href="#" class="btn-store btn-store--filled">Where to print it</a>
+    </div>
+  </div>
+</div>
+```
+
 :::
 
-<hr class="section-divider"/>
 
-::: {.section-light style="padding-top: 3rem; padding-bottom: 3rem;"}
+<!-- 3. TRY FRUITMEASUREAPP — dark bg, mirrors "Why it matters" from index -->
+
+::: {.section-dark}
 ::: {.section-inner}
-::: {.resource-block}
 
 ## Try FruitMeasureApp
 
-[Get images →](#){.resource-link}
+- Download the app and start measuring fruit size directly from your smartphone.
+- You can try the app with test images, without needing to print the support or capture images in the field. Download them at the following link:
+
+::: {.resource-cta-group}
+[Play Store](https://play.google.com/store/apps/details?id=com.anphis.es.fruit_measure_app){.btn-store .btn-store--outline}
+[Apple Store](https://apps.apple.com/es/app/fruitmeasureapp/id6758163918){.btn-store .btn-store--outline}
+[Download test images →](../assets/app/imatges_test_app.zip){.btn-store .btn-store--outline}
+:::
 
 :::
 :::
-:::
 
-<hr class="section-divider"/>
+
+<!-- 4. EXPLORE THE AI MODEL — light bg, technical content -->
 
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
@@ -121,8 +127,6 @@ Distance (mm) from fruit to camera (default: 250 mm)
 :::
 :::
 
-<!-- GALLERY — raw HTML so Quarto doesn't wrap images in column divs -->
-
 ```{=html}
 <div class="section-gallery">
   <div class="resource-gallery">
@@ -132,3 +136,7 @@ Distance (mm) from fruit to camera (default: 250 mm)
   </div>
 </div>
 ```
+
+::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
+[Official repository →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+:::

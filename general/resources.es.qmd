@@ -9,62 +9,68 @@ toc: false
 # Recursos
 :::
 
+
 ::: {.section-dark}
-::: {.section-inner--wide}
-::: {.resource-stick}
-
-::: {.resource-stick-text}
-
-## FruitMeasure Stick
-
-El FruitMeasure Stick es necesario para capturar todas las fotos para FruitMeasureApp.
-
-::: {.resource-stick-buttons}
-[Obtener el archivo 3D](../../assets/suport3D/FruitMeasureStick_3D_stl.zip){.btn-store .btn-store--outline}
-[Cómo ensamblarlo](#){.btn-store .btn-store--outline}
-[Dónde imprimirlo](#){.btn-store .btn-store--outline}
-:::
-
-:::
-
-::: {.resource-stick-image}
-![](../assets/images/foto_soporte_FruitMeasureApp.jpeg)
-:::
-
-:::
-:::
-:::
-
-
-::: {.section-light}
 ::: {.section-inner}
-::: {.resource-block}
 
 ## Obtén la guía de usuario
 
 Descarga la guía completa del usuario para resolver cualquier duda y entender más en profundidad cómo funciona FruitMeasureApp.
 
-[Descargar la guía de FruitMeasureApp →](../../assets/pdfs/Manual_usuari_EN.pdf){.resource-link}
+::: {.resource-cta-group}
+[Descargar la guía →](../assets/pdfs/Manual_usuari_EN.pdf){.btn-store .btn-store--outline}
+[Ver el videotutorial →](../assets/videos/FruitMeasureApp.mp4){.btn-store .btn-store--outline}
+:::
 
 :::
 :::
+
+
+<!-- 2. FRUITMEASURE STICK -->
+
+::: {.section-light}
+
+```{=html}
+<div class="about-hero">
+  <div class="about-hero-image">
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasure Stick"/>
+  </div>
+  <div class="about-hero-text">
+    <h2>FruitMeasure Stick</h2>
+    <p>El FruitMeasure Stick es necesario para capturar todas las fotos para FruitMeasureApp. Imprímelo con una impresora 3D y móntalolo siguiendo la guía.</p>
+    <div class="resource-stick-buttons">
+      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtener el archivo 3D</a>
+      <a href="#" class="btn-store btn-store--filled">Cómo ensamblarlo</a>
+      <a href="#" class="btn-store btn-store--filled">Dónde imprimirlo</a>
+    </div>
+  </div>
+</div>
+```
+
 :::
 
-<hr class="section-divider"/>
 
-::: {.section-light style="padding-top: 3rem; padding-bottom: 3rem;"}
+<!-- 3. PRUEBA FRUITMEASUREAPP -->
+
+::: {.section-dark}
 ::: {.section-inner}
-::: {.resource-block}
 
 ## Prueba FruitMeasureApp
 
-[Obtener imágenes →](#){.resource-link}
+- Descarga la app y empieza a medir el tamaño de los frutos directamente desde tu smartphone.
+- Puedes probar la aplicación con imágenes de prueba, sin necesidad de imprimir el soporte ni capturar imágenes en campo. Descárgalas en el siguiente enlace:
+
+::: {.resource-cta-group}
+[Play Store](https://play.google.com/store/apps/details?id=com.anphis.es.fruit_measure_app){.btn-store .btn-store--outline}
+[Apple Store](https://apps.apple.com/es/app/fruitmeasureapp/id6758163918){.btn-store .btn-store--outline}
+[Descargar imágenes de prueba →](../assets/app/imatges_test_app.zip){.btn-store .btn-store--outline}
+:::
 
 :::
 :::
-:::
 
-<hr class="section-divider"/>
+
+<!-- 4. EXPLORA EL MODELO DE IA -->
 
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
@@ -130,3 +136,7 @@ Distancia (mm) desde la fruta a la cámara (por defecto: 250 mm)
   </div>
 </div>
 ```
+
+::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
+[Repositorio oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+:::

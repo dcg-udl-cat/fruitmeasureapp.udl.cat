@@ -9,62 +9,68 @@ toc: false
 # Recursos
 :::
 
+
 ::: {.section-dark}
-::: {.section-inner--wide}
-::: {.resource-stick}
-
-::: {.resource-stick-text}
-
-## FruitMeasure Stick
-
-El FruitMeasure Stick és necessari per capturar totes les fotos per a FruitMeasureApp.
-
-::: {.resource-stick-buttons}
-[Obtenir el fitxer 3D](../../assets/suport3D/FruitMeasureStick_3D_stl.zip){.btn-store .btn-store--outline}
-[Com muntar-lo](#){.btn-store .btn-store--outline}
-[On imprimir-lo](#){.btn-store .btn-store--outline}
-:::
-
-:::
-
-::: {.resource-stick-image}
-![](../assets/images/foto_soporte_FruitMeasureApp.jpeg)
-:::
-
-:::
-:::
-:::
-
-
-::: {.section-light}
 ::: {.section-inner}
-::: {.resource-block}
 
-## Obtén la guia d'usuari
+## Obté la guia d'usuari
 
 Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre més en profunditat com funciona FruitMeasureApp.
 
-[Descarrega la guia de FruitMeasureApp →](../../assets/pdfs/Manual_usuari_CAT.pdf){.resource-link}
+::: {.resource-cta-group}
+[Descarrega la guia →](../assets/pdfs/Manual_usuari_CAT.pdf){.btn-store .btn-store--outline}
+[Visualitza el videotutorial →](../assets/videos/FruitMeasureApp.mp4){.btn-store .btn-store--outline}
+:::
 
 :::
 :::
+
+
+<!-- 2. FRUITMEASURE STICK -->
+
+::: {.section-light}
+
+```{=html}
+<div class="about-hero">
+  <div class="about-hero-image">
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasure Stick"/>
+  </div>
+  <div class="about-hero-text">
+    <h2>FruitMeasure Stick</h2>
+    <p>El FruitMeasure Stick és necessari per capturar totes les fotos per a FruitMeasureApp. Imprimiu-lo amb una impressora 3D i munteu-lo seguint la guia.</p>
+    <div class="resource-stick-buttons">
+      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtenir el fitxer 3D</a>
+      <a href="#" class="btn-store btn-store--filled">Com muntar-lo</a>
+      <a href="#" class="btn-store btn-store--filled">On imprimir-lo</a>
+    </div>
+  </div>
+</div>
+```
+
 :::
 
-<hr class="section-divider"/>
 
-::: {.section-light style="padding-top: 3rem; padding-bottom: 3rem;"}
+<!-- 3. PROVA FRUITMEASUREAPP -->
+
+::: {.section-dark}
 ::: {.section-inner}
-::: {.resource-block}
 
 ## Prova FruitMeasureApp
 
-[Obtenir imatges →](#){.resource-link}
+- Descarrega l'aplicació i comença a mesurar la mida dels fruits directament des del teu telèfon mòbil.
+- Podeu provar l'aplicació amb imatges de prova, sense necessitat d'imprimir el suport ni capturar imatges a camp. Descarregueu-les al següent enllaç:
+
+::: {.resource-cta-group}
+[Play Store](https://play.google.com/store/apps/details?id=com.anphis.es.fruit_measure_app){.btn-store .btn-store--outline}
+[Apple Store](https://apps.apple.com/es/app/fruitmeasureapp/id6758163918){.btn-store .btn-store--outline}
+[Descarrega les imatges de prova →](../assets/app/imatges_test_app.zip){.btn-store .btn-store--outline}
+:::
 
 :::
 :::
-:::
 
-<hr class="section-divider"/>
+
+<!-- 4. EXPLORA EL MODEL D'IA -->
 
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
@@ -101,7 +107,7 @@ python main.py --mode Cluster --image example_images/IMG_20240828_122454.jpg
 --dist_fruit2cam
 :::
 
-Distància (mm) de la fruita a la càmera (per defecte: 250 mm)
+Distància (mm) des de la fruita fins a la càmera (per defecte: 250 mm)
 
 ## Sortida
 
@@ -130,3 +136,7 @@ Distància (mm) de la fruita a la càmera (per defecte: 250 mm)
   </div>
 </div>
 ```
+
+::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
+[Repositori oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+:::
