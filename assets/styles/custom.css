@@ -704,3 +704,28 @@ body.quarto-dark .code-tag {
 @media (max-width: 600px) {
   .icon-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+.resource-cta-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0 1rem;
+}
+
+/* about-hero reused for Stick section on light bg:
+   h2 needs primary color (not white)                      */
+.section-light .about-hero-text h2 {
+  font-size: clamp(1.8rem, 4vw, 4rem);
+  font-weight: 700;
+  color: var(--fm-primary);
+  margin-bottom: 1rem;
+}
+
+/* Stick buttons inside about-hero on light bg use filled style */
+.section-light .about-hero-text .resource-stick-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
