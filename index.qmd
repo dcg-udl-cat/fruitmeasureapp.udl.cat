@@ -26,7 +26,7 @@ AI-powered fruit size measurement for precision agriculture
 
 :::
 ::: {.hero-media}
-![](../assets/images/home/Poma.png)
+![](assets/images/home/Poma.png)
 :::
 :::
 :::
