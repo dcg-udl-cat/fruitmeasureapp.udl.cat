@@ -33,7 +33,7 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 ```{=html}
 <div class="about-hero">
   <div class="about-hero-image">
-    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasure Stick"/>
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.jpg" alt="FruitMeasure Stick"/>
   </div>
   <div class="about-hero-text">
     <h2>FruitMeasure Stick</h2>
