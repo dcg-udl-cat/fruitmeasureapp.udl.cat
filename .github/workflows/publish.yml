@@ -56,7 +56,7 @@ jobs:
           )
 
       - name: Render Website
-        run: Rscript -e 'babelquarto::render_website()'
+        run: Rscript -e 'babelquarto::render_website( site_url = Sys.getenv("BABELQUARTO_CI_URL"))'
 
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
