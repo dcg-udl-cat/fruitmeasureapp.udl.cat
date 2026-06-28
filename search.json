@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "News",
-    "section": "",
-    "text": "News\nLatest updates from FruitMeasureApp, including releases, research progress, and field testing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst public release of FruitMeasureApp\n\n\n\nrelease\n\n\n\nFruitMeasureApp is now available on mobile platforms.\n\n\n\n\n\nMar 10, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/posts/10_03_2026_first_release.html",
-    "href": "blog/posts/10_03_2026_first_release.html",
-    "title": "First public release of FruitMeasureApp",
-    "section": "",
-    "text": "We are pleased to announce the first public release of FruitMeasureApp.\nThis version includes:\n\nMobile application (Android and iOS)\n\nAI-based fruit detection and measurement\n\nSupport for multiple fruits per image\n\nCalibration using a reference marker"
-  },
-  {
-    "objectID": "blog/posts/10_03_2026_first_release.html#first-release",
-    "href": "blog/posts/10_03_2026_first_release.html#first-release",
-    "title": "First public release of FruitMeasureApp",
-    "section": "",
-    "text": "We are pleased to announce the first public release of FruitMeasureApp.\nThis version includes:\n\nMobile application (Android and iOS)\n\nAI-based fruit detection and measurement\n\nSupport for multiple fruits per image\n\nCalibration using a reference marker"
-  },
-  {
-    "objectID": "blog/posts/10_03_2026_first_release.html#whats-next",
-    "href": "blog/posts/10_03_2026_first_release.html#whats-next",
-    "title": "First public release of FruitMeasureApp",
-    "section": "What’s next",
-    "text": "What’s next\nFuture updates will focus on:\n\nImproving accuracy\n\nExpanding supported crops\n\nEnhancing usability in field conditions"
-  },
-  {
     "objectID": "project/changelog.html",
     "href": "project/changelog.html",
     "title": "Changelog",
@@ -54,5 +26,33 @@
     "title": "Changelog",
     "section": "TODO",
     "text": "TODO\n\nApp\n\nConfirm exact release date\n\nAdd Google Play link\n\nAdd App Store link\n\nSpecify supported Android/iOS versions\n\nAdd screenshots of the released version\n\n\n\nModel\n\nSpecify model architecture.\nAdd dataset description (size, type, annotation process)\n\nProvide evaluation metrics (e.g., error in mm, accuracy)\n\nDocument training procedure\n\nAdd inference performance details (speed, device requirements)\n\n\n\nFeatures\n\nList supported fruit types\n\nClarify limitations (lighting, occlusion, distance constraints)\n\nAdd calibration details (marker size, assumptions)\n\n\n\nHardware (Support)\n\nAdd STL download links\n\nAdd assembly instructions\n\nDocument recommended usage setup\n\n\n\nDocumentation\n\nLink to full documentation\n\nAdd usage tutorial\n\nAdd FAQ section"
+  },
+  {
+    "objectID": "blog/posts/10_03_2026_first_release.html",
+    "href": "blog/posts/10_03_2026_first_release.html",
+    "title": "First public release of FruitMeasureApp",
+    "section": "",
+    "text": "We are pleased to announce the first public release of FruitMeasureApp.\nThis version includes:\n\nMobile application (Android and iOS)\n\nAI-based fruit detection and measurement\n\nSupport for multiple fruits per image\n\nCalibration using a reference marker"
+  },
+  {
+    "objectID": "blog/posts/10_03_2026_first_release.html#first-release",
+    "href": "blog/posts/10_03_2026_first_release.html#first-release",
+    "title": "First public release of FruitMeasureApp",
+    "section": "",
+    "text": "We are pleased to announce the first public release of FruitMeasureApp.\nThis version includes:\n\nMobile application (Android and iOS)\n\nAI-based fruit detection and measurement\n\nSupport for multiple fruits per image\n\nCalibration using a reference marker"
+  },
+  {
+    "objectID": "blog/posts/10_03_2026_first_release.html#whats-next",
+    "href": "blog/posts/10_03_2026_first_release.html#whats-next",
+    "title": "First public release of FruitMeasureApp",
+    "section": "What’s next",
+    "text": "What’s next\nFuture updates will focus on:\n\nImproving accuracy\n\nExpanding supported crops\n\nEnhancing usability in field conditions"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "News",
+    "section": "",
+    "text": "News\nLatest updates from FruitMeasureApp, including releases, research progress, and field testing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst public release of FruitMeasureApp\n\n\n\nrelease\n\n\n\nFruitMeasureApp is now available on mobile platforms.\n\n\n\n\n\nMar 10, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
