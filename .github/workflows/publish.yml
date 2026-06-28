@@ -1,53 +1,71 @@
+name: Quarto Publish
+
 on:
   workflow_dispatch:
   push:
-    branches: main
-
-name: Quarto Publish
+    branches:
+      - main
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     env:
-      BABELQUARTO_CI_URL: "https://fruitmeasureapp.udl.cat"
+      BABELQUARTO_CI_URL: https://fruitmeasureapp.udl.cat
 
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
+      - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Set up R
+      - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: "4.4"
 
-      - name: Cache R packages
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: r-${{ runner.os }}-babelquarto
-          restore-keys: r-${{ runner.os }}-babelquarto
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libfontconfig1-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libfreetype6-dev \
+            libpng-dev \
+            libjpeg-dev \
+            libtiff5-dev
 
-      - name: Install babelquarto
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::babelquarto
+          extra-repositories: |
+            https://ropensci.r-universe.dev
+
+      - name: Verify installation
         shell: Rscript {0}
         run: |
-          install.packages(
-            'babelquarto',
-            repos = c('https://ropensci.r-universe.dev', 'https://cloud.r-project.org')
-          )
+          sessionInfo()
+          packageVersion("babelquarto")
+          packageVersion("quarto")
 
-      - name: Render site
+      - name: Render website
         shell: Rscript {0}
         run: |
           babelquarto::render_website(
             site_url = Sys.getenv("BABELQUARTO_CI_URL")
           )
 
-      - name: Publish to gh-pages
+      - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
