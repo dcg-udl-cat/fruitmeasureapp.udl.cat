@@ -43,13 +43,22 @@ jobs:
             libjpeg-dev \
             libtiff5-dev
 
-      - name: Install R dependencies
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::babelquarto
-          extra-repositories: |
-            https://ropensci.r-universe.dev
+      - name: Install babelquarto
+        shell: Rscript {0}
+        run: |
+          options(
+            repos = c(
+              ropensci = "https://ropensci.r-universe.dev",
+              CRAN = "https://cloud.r-project.org"
+            ),
+            Ncpus = parallel::detectCores()
+          )
+
+          install.packages(
+            "babelquarto",
+            dependencies = TRUE,
+            verbose = TRUE
+          )
 
       - name: Verify installation
         shell: Rscript {0}
