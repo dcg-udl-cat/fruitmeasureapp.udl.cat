@@ -17,7 +17,7 @@ toc: false
   </div>
   <div class="about-hero-text">
     <p>FruitMeasureApp is a mobile application based on artificial intelligence designed to estimate fruit size directly from smartphone images, supporting decision-making in precision agriculture.</p>
-    <p>This project is part of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.</p>
+    <p>This solution has been developed in the framework of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.</p>
   </div>
 </div>
 ```
@@ -108,7 +108,7 @@ toc: false
   </div>
 </div>
 <div style="max-width: var(--fm-inner-max); margin: 0 auto; padding: 0 2rem 1rem; font-size: clamp(1rem, 1.4vw, 1.1rem); color: var(--fm-text);">
-<p>Translation: "Activity co-funded by the EU through intervention 7201 of the CAP Strategic Plan 2023-2027."</p>
+<p>Activity co-funded by the EU through intervention 7201 of the CAP Strategic Plan 2023-2027.</p>
 </div>
 <div class="credits-logos" style="padding-bottom: 5rem;">
   <div class="credits-logos-row">

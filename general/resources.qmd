@@ -15,7 +15,7 @@ toc: false
 
 ## Get the user guide
 
-Get the complete user's guide to resolve any doubts and understand more deeply how FruitMeasureApp works.
+Get the complete user guide to resolve any doubts and understand more deeply how FruitMeasureApp works.
 
 ::: {.resource-cta-group}
 [Download the guide →](../assets/pdfs/Manual_usuari_EN.pdf){.btn-store .btn-store--outline}
@@ -24,9 +24,6 @@ Get the complete user's guide to resolve any doubts and understand more deeply h
 
 :::
 :::
-
-
-<!-- 2. FRUITMEASURE STICK — light bg, about-hero layout (image + text) -->
 
 ::: {.section-light}
 
@@ -41,16 +38,12 @@ Get the complete user's guide to resolve any doubts and understand more deeply h
     <div class="resource-stick-buttons">
       <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
       <a href="#" class="btn-store btn-store--filled">How to assemble it</a>
-      <a href="#" class="btn-store btn-store--filled">Where to print it</a>
     </div>
   </div>
 </div>
 ```
 
 :::
-
-
-<!-- 3. TRY FRUITMEASUREAPP — dark bg, mirrors "Why it matters" from index -->
 
 ::: {.section-dark}
 ::: {.section-inner}
@@ -69,9 +62,6 @@ Get the complete user's guide to resolve any doubts and understand more deeply h
 :::
 :::
 
-
-<!-- 4. EXPLORE THE AI MODEL — light bg, technical content -->
-
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
 
@@ -79,52 +69,6 @@ Get the complete user's guide to resolve any doubts and understand more deeply h
 
 ::: {.model-intro}
 The app uses a convolutional neural network (CNN) for fruit detection and segmentation, combined with geometric calibration using a reference marker.
-:::
-
-::: {.model-columns}
-
-::: {}
-**Pipeline:** Calibrate → Capture → Detect → Measure
-
-## Run inference mode Fruit
-
-```bash
-python main.py --mode Fruit --image example_images/IMG_20240828_122454.jpg
-```
-
-## Run inference mode Cluster
-
-```bash
-python main.py --mode Cluster --image example_images/IMG_20240828_122454.jpg
-```
-:::
-
-::: {}
-
-## Optional Arguments
-
-::: {.code-tag}
---dist_fruit2cam
-:::
-
-Distance (mm) from fruit to camera (default: 250 mm)
-
-## Output
-
-::: {.output-row}
-[*_results.csv]{.code-tag} → The diameter plus the confidence
-:::
-::: {.output-row}
-[*_mask_dets.jpg]{.code-tag} → Segmentation
-:::
-::: {.output-row}
-[*_bb_dets.jpg]{.code-tag} → Create the bounding boxes
-:::
-
-:::
-
-:::
-:::
 :::
 
 ```{=html}
@@ -139,4 +83,7 @@ Distance (mm) from fruit to camera (default: 250 mm)
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
 [Official repository →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+:::
+
+:::
 :::

@@ -37,9 +37,9 @@ AI-powered fruit size measurement for precision agriculture
 ## Measure. Decide. Optimize.
 
 - Measure fruit diameter directly with your smartphone using images.
-- Analyze single or multiple fruits in the same image.
+- Analyse single or multiple fruits in the same image.
 - Replace manual measurements with an automated, AI-based approach.
-- Get instant results to support fruit thinning decisions (Greene method).
+- Get instant results to support fruit thinning decisions.
 - Use a simple and fast tool designed for real-field conditions.
 
 :::
@@ -58,7 +58,7 @@ AI-powered fruit size measurement for precision agriculture
 ```
 :::
 
-[For more information download the FruitMeasureApp guide →](../assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
+[For more information, download the FruitMeasureApp guide →](../assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
 
 :::
 :::
