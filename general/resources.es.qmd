@@ -15,7 +15,7 @@ toc: false
 
 ## Obtén la guía de usuario
 
-Descarga la guía completa del usuario para resolver cualquier duda y entender más en profundidad cómo funciona FruitMeasureApp.
+Descarga la guía completa de usuario para resolver cualquier duda y entender más a fondo cómo funciona la aplicación.
 
 ::: {.resource-cta-group}
 [Descargar la guía →](../assets/pdfs/Manual_usuari_EN.pdf){.btn-store .btn-store--outline}
@@ -24,9 +24,6 @@ Descarga la guía completa del usuario para resolver cualquier duda y entender m
 
 :::
 :::
-
-
-<!-- 2. FRUITMEASURE STICK -->
 
 ::: {.section-light}
 
@@ -40,8 +37,7 @@ Descarga la guía completa del usuario para resolver cualquier duda y entender m
     <p>El FruitMeasure Stick es necesario para capturar todas las fotos para FruitMeasureApp. Imprímelo con una impresora 3D y móntalolo siguiendo la guía.</p>
     <div class="resource-stick-buttons">
       <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtener el archivo 3D</a>
-      <a href="#" class="btn-store btn-store--filled">Cómo ensamblarlo</a>
-      <a href="#" class="btn-store btn-store--filled">Dónde imprimirlo</a>
+      <a href="#" class="btn-store btn-store--filled">Cómo montarlo</a>
     </div>
   </div>
 </div>
@@ -49,15 +45,12 @@ Descarga la guía completa del usuario para resolver cualquier duda y entender m
 
 :::
 
-
-<!-- 3. PRUEBA FRUITMEASUREAPP -->
-
 ::: {.section-dark}
 ::: {.section-inner}
 
 ## Prueba FruitMeasureApp
 
-- Descarga la app y empieza a medir el tamaño de los frutos directamente desde tu smartphone.
+- Descarga la app y empieza a medir el calibre de los frutos directamente desde tu teléfono móvil.
 - Puedes probar la aplicación con imágenes de prueba, sin necesidad de imprimir el soporte ni capturar imágenes en campo. Descárgalas en el siguiente enlace:
 
 ::: {.resource-cta-group}
@@ -69,9 +62,6 @@ Descarga la guía completa del usuario para resolver cualquier duda y entender m
 :::
 :::
 
-
-<!-- 4. EXPLORA EL MODELO DE IA -->
-
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
 
@@ -79,52 +69,6 @@ Descarga la guía completa del usuario para resolver cualquier duda y entender m
 
 ::: {.model-intro}
 La aplicación utiliza una red neuronal convolucional (CNN) para la detección y segmentación de frutas, combinada con calibración geométrica mediante un marcador de referencia.
-:::
-
-::: {.model-columns}
-
-::: {}
-**Pipeline:** Calibrar → Capturar → Detectar → Medir
-
-## Ejecutar modo inferencia Fruit
-
-```bash
-python main.py --mode Fruit --image example_images/IMG_20240828_122454.jpg
-```
-
-## Ejecutar modo inferencia Cluster
-
-```bash
-python main.py --mode Cluster --image example_images/IMG_20240828_122454.jpg
-```
-:::
-
-::: {}
-
-## Argumentos opcionales
-
-::: {.code-tag}
---dist_fruit2cam
-:::
-
-Distancia (mm) desde la fruta a la cámara (por defecto: 250 mm)
-
-## Salida
-
-::: {.output-row}
-[*_results.csv]{.code-tag} → El diámetro más la confianza
-:::
-::: {.output-row}
-[*_mask_dets.jpg]{.code-tag} → Segmentación
-:::
-::: {.output-row}
-[*_bb_dets.jpg]{.code-tag} → Crear los bounding boxes
-:::
-
-:::
-
-:::
-:::
 :::
 
 ```{=html}
@@ -139,4 +83,7 @@ Distancia (mm) desde la fruta a la cámara (por defecto: 250 mm)
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
 [Repositorio oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+:::
+
+:::
 :::

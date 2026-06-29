@@ -5,7 +5,7 @@ section-divs: false
 toc: false
 css: assets/styles/index.css
 description: |
-  Medición del tamaño de fruta con IA para la agricultura de precisión. Mide el diámetro directamente desde tu smartphone usando imágenes.
+  Medición del calibre del fruto con IA para la agricultura de precisión. Mide el diámetro directamente desde tu smartphone usando imágenes.
 hide-description: true
 ---
 
@@ -17,7 +17,7 @@ hide-description: true
 # Bienvenidos a FruitMeasureApp
 
 ::: {.hero-subtitle}
-Medición del tamaño de fruta con IA para la agricultura de precisión
+Medición del calibre del fruto con IA para la agricultura de precisión
 :::
 
 ::: {.hero-store-buttons}
@@ -37,10 +37,10 @@ Medición del tamaño de fruta con IA para la agricultura de precisión
 
 ## Mide. Decide. Optimiza.
 
-- Mide el diámetro de la fruta directamente con tu smartphone usando imágenes.
-- Analiza una o varias frutas en la misma imagen.
+- Mide el calibre de los frutos directamente con tu teléfono móvil usando imágenes.
+- Analiza uno o varios frutos en la misma imagen.
 - Sustituye las mediciones manuales por un enfoque automatizado basado en IA.
-- Obtén resultados instantáneos para apoyar las decisiones de aclareo (método Greene).
+- Obtén resultados instantáneos para apoyar las decisiones de aclareo.
 - Usa una herramienta sencilla y rápida diseñada para condiciones reales de campo.
 
 :::
@@ -59,7 +59,7 @@ Medición del tamaño de fruta con IA para la agricultura de precisión
 ```
 :::
 
-[Para más información descarga la guía de FruitMeasureApp →](assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
+[Para más información, descarga la guía de FruitMeasureApp →](assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
 
 :::
 :::
