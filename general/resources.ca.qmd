@@ -25,9 +25,6 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 :::
 :::
 
-
-<!-- 2. FRUITMEASURE STICK -->
-
 ::: {.section-light}
 
 ```{=html}
@@ -41,7 +38,6 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
     <div class="resource-stick-buttons">
       <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtenir el fitxer 3D</a>
       <a href="#" class="btn-store btn-store--filled">Com muntar-lo</a>
-      <a href="#" class="btn-store btn-store--filled">On imprimir-lo</a>
     </div>
   </div>
 </div>
@@ -49,15 +45,12 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 
 :::
 
-
-<!-- 3. PROVA FRUITMEASUREAPP -->
-
 ::: {.section-dark}
 ::: {.section-inner}
 
 ## Prova FruitMeasureApp
 
-- Descarrega l'aplicació i comença a mesurar la mida dels fruits directament des del teu telèfon mòbil.
+- Descarrega l'aplicació i comença a mesurar el calibre dels fruits directament des del teu telèfon mòbil.
 - Podeu provar l'aplicació amb imatges de prova, sense necessitat d'imprimir el suport ni capturar imatges a camp. Descarregueu-les al següent enllaç:
 
 ::: {.resource-cta-group}
@@ -69,9 +62,6 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 :::
 :::
 
-
-<!-- 4. EXPLORA EL MODEL D'IA -->
-
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
 
@@ -79,52 +69,6 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 
 ::: {.model-intro}
 L'aplicació utilitza una xarxa neuronal convolucional (CNN) per a la detecció i segmentació de fruites, combinada amb calibratge geomètric mitjançant un marcador de referència.
-:::
-
-::: {.model-columns}
-
-::: {}
-**Pipeline:** Calibrar → Capturar → Detectar → Mesurar
-
-## Executar mode inferència Fruit
-
-```bash
-python main.py --mode Fruit --image example_images/IMG_20240828_122454.jpg
-```
-
-## Executar mode inferència Cluster
-
-```bash
-python main.py --mode Cluster --image example_images/IMG_20240828_122454.jpg
-```
-:::
-
-::: {}
-
-## Arguments opcionals
-
-::: {.code-tag}
---dist_fruit2cam
-:::
-
-Distància (mm) des de la fruita fins a la càmera (per defecte: 250 mm)
-
-## Sortida
-
-::: {.output-row}
-[*_results.csv]{.code-tag} → El diàmetre més la confiança
-:::
-::: {.output-row}
-[*_mask_dets.jpg]{.code-tag} → Segmentació
-:::
-::: {.output-row}
-[*_bb_dets.jpg]{.code-tag} → Crear els bounding boxes
-:::
-
-:::
-
-:::
-:::
 :::
 
 ```{=html}
@@ -139,4 +83,7 @@ Distància (mm) des de la fruita fins a la càmera (per defecte: 250 mm)
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
 [Repositori oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+:::
+
+:::
 :::

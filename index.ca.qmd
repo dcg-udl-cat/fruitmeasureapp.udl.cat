@@ -5,7 +5,7 @@ section-divs: false
 toc: false
 css: assets/styles/index.css
 description: |
-  Mesura de la mida de la fruita amb IA per a l'agricultura de precisió. Mesura el diàmetre directament des del teu smartphone usant imatges.
+  Mesura del calibre del fruit amb IA per a l'agricultura de precisió. Mesura el diàmetre directament des del teu telèfon mòbil usant imatges.
 hide-description: true
 ---
 
@@ -17,7 +17,7 @@ hide-description: true
 # Benvinguts a FruitMeasureApp
 
 ::: {.hero-subtitle}
-Mesura de la mida de la fruita amb IA per a l'agricultura de precisió
+Mesura del calibre del fruit amb IA per a l'agricultura de precisió
 :::
 
 ::: {.hero-store-buttons}
@@ -37,10 +37,10 @@ Mesura de la mida de la fruita amb IA per a l'agricultura de precisió
 
 ## Mesura. Decideix. Optimitza.
 
-- Mesura el diàmetre de la fruita directament amb el teu smartphone usant imatges.
-- Analitza una o diverses fruites en la mateixa imatge.
+- Mesura el calibre del fruit directament amb el teu telèfon mòbil usant imatges.
+- Analitza un o diversos fruits en la mateixa imatge.
 - Substitueix les mesures manuals per un enfocament automatitzat basat en IA.
-- Obtén resultats instantanis per donar suport a les decisions d'esclareig (mètode Greene).
+- Obtén resultats instantanis per donar suport a les decisions d'aclarida.
 - Usa una eina senzilla i ràpida dissenyada per a condicions reals de camp.
 
 :::
@@ -59,7 +59,7 @@ Mesura de la mida de la fruita amb IA per a l'agricultura de precisió
 ```
 :::
 
-[Per a més informació descarrega la guia de FruitMeasureApp →](assets/pdfs/Manual_usuari_CAT.pdf){.guide-link}
+[Per a més informació, descarrega la guia de FruitMeasureApp →](assets/pdfs/Manual_usuari_CAT.pdf){.guide-link}
 
 :::
 :::
@@ -71,7 +71,7 @@ Mesura de la mida de la fruita amb IA per a l'agricultura de precisió
 
 - Reduir els errors de mesura manual i la variabilitat.
 - Estalviar temps i mà d'obra en els fluxos de treball en camp.
-- Facilitar les decisions d'esclareig basades en dades.
+- Facilitar les decisions d' aclarida basades en dades.
 - Accelerar l'adopció d'eines d'agricultura de precisió.
 
 :::

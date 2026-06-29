@@ -8,7 +8,7 @@ website:
       - href: general/resources.qmd
         text: Recursos
       - href: general/about.qmd
-        text: Sobre nosaltres
+        text: Sobre el projecte
       - href: general/credits.qmd
         text: Crèdits
   page-footer:
