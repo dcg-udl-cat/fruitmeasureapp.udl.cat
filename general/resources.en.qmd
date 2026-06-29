@@ -56,7 +56,7 @@ Get the complete user guide to resolve any doubts and understand more deeply how
 ::: {.resource-cta-group}
 [Play Store](https://play.google.com/store/apps/details?id=com.anphis.es.fruit_measure_app){.btn-store .btn-store--outline}
 [Apple Store](https://apps.apple.com/es/app/fruitmeasureapp/id6758163918){.btn-store .btn-store--outline}
-[Download test images →](../assets/app/imatges_test_app.zip){.btn-store .btn-store--outline}
+[Download test images →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/imatges_test_app.zip){.btn-store .btn-store--outline}
 :::
 
 :::
