@@ -1,25 +1,25 @@
 ---
-pagetitle: "Resources — FruitMeasureApp"
+pagetitle: "Recursos — FruitMeasureApp"
 page-layout: custom
 section-divs: false
 toc: false
 ---
 
 ::: {.page-title-band}
-# Resources
+# Recursos
 :::
 
 
 ::: {.section-dark}
 ::: {.section-inner}
 
-## Get the user guide
+## Obté la guia d'usuari
 
-Get the complete user guide to resolve any doubts and understand more deeply how FruitMeasureApp works.
+Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre més en profunditat com funciona FruitMeasureApp.
 
 ::: {.resource-cta-group}
-[Download the guide →](../assets/pdfs/Manual_usuari_EN.pdf){.btn-store .btn-store--outline}
-[Watch the video tutorial →](../assets/videos/FruitMeasureApp.mp4){.btn-store .btn-store--outline}
+[Descarrega la guia →](../assets/pdfs/Manual_usuari_CAT.pdf){.btn-store .btn-store--outline}
+[Visualitza el videotutorial →](../assets/videos/FruitMeasureApp.mp4){.btn-store .btn-store--outline}
 :::
 
 :::
@@ -34,10 +34,10 @@ Get the complete user guide to resolve any doubts and understand more deeply how
   </div>
   <div class="about-hero-text">
     <h2>FruitMeasure Stick</h2>
-    <p>The FruitMeasure Stick is required to capture all the photos for the FruitMeasureApp. Print it with a 3D printer and assemble it following the guide.</p>
+    <p>El FruitMeasure Stick és necessari per capturar totes les fotos per a FruitMeasureApp. Imprimiu-lo amb una impressora 3D i munteu-lo seguint la guia.</p>
     <div class="resource-stick-buttons">
-      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
-      <a href="#" class="btn-store btn-store--filled">How to assemble it</a>
+      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtenir el fitxer 3D</a>
+      <a href="#" class="btn-store btn-store--filled">Com muntar-lo</a>
     </div>
   </div>
 </div>
@@ -48,15 +48,15 @@ Get the complete user guide to resolve any doubts and understand more deeply how
 ::: {.section-dark}
 ::: {.section-inner}
 
-## Try FruitMeasureApp
+## Prova FruitMeasureApp
 
-- Download the app and start measuring fruit size directly from your smartphone.
-- You can try the app with test images, without needing to print the support or capture images in the field. Download them at the following link:
+- Descarrega l'aplicació i comença a mesurar el calibre dels fruits directament des del teu telèfon mòbil.
+- Podeu provar l'aplicació amb imatges de prova, sense necessitat d'imprimir el suport ni capturar imatges a camp. Descarregueu-les al següent enllaç:
 
 ::: {.resource-cta-group}
 [Play Store](https://play.google.com/store/apps/details?id=com.anphis.es.fruit_measure_app){.btn-store .btn-store--outline}
 [Apple Store](https://apps.apple.com/es/app/fruitmeasureapp/id6758163918){.btn-store .btn-store--outline}
-[Download test images →](../assets/app/imatges_test_app.zip){.btn-store .btn-store--outline}
+[Descarrega les imatges de prova →](../assets/app/imatges_test_app.zip){.btn-store .btn-store--outline}
 :::
 
 :::
@@ -65,24 +65,24 @@ Get the complete user guide to resolve any doubts and understand more deeply how
 ::: {.section-light .section-model-top}
 ::: {.section-inner--wide}
 
-## Explore the AI model {style="text-align:center;"}
+## Explora el model d'IA {style="text-align:center;"}
 
 ::: {.model-intro}
-The app uses a convolutional neural network (CNN) for fruit detection and segmentation, combined with geometric calibration using a reference marker.
+L'aplicació utilitza una xarxa neuronal convolucional (CNN) per a la detecció i segmentació de fruites, combinada amb calibratge geomètric mitjançant un marcador de referència.
 :::
 
 ```{=html}
 <div class="section-gallery">
   <div class="resource-gallery">
-    <img src="../assets/images/resources/foto1.jpg" alt="App screenshot 1"/>
-    <img src="../assets/images/resources/foto2.jpg" alt="App screenshot 2"/>
-    <img src="../assets/images/resources/foto3.png" alt="App screenshot 3"/>
+    <img src="../assets/images/resources/foto1.jpg" alt="Captura de pantalla de l'app 1"/>
+    <img src="../assets/images/resources/foto2.jpg" alt="Captura de pantalla de l'app 2"/>
+    <img src="../assets/images/resources/foto3.png" alt="Captura de pantalla de l'app 3"/>
   </div>
 </div>
 ```
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
-[Official repository →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+[Repositori oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
 :::
 
 :::

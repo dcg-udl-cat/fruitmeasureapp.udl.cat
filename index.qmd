@@ -4,19 +4,20 @@ page-layout: custom
 section-divs: false
 toc: false
 css: assets/styles/index.css
-description: | 
-  AI-powered fruit size measurement for precision agriculture. Measure fruit diameter directly from your smartphone using images.
+description: |
+  Mesura del calibre del fruit amb IA per a l'agricultura de precisió. Mesura el diàmetre directament des del teu telèfon mòbil usant imatges.
 hide-description: true
 ---
+
 
 ::: {.hero-banner}
 ::: {.content-block}
 ::: {.hero-text}
 
-# Welcome to FruitMeasureApp
+# Benvinguts a FruitMeasureApp
 
 ::: {.hero-subtitle}
-AI-powered fruit size measurement for precision agriculture
+Mesura del calibre del fruit amb IA per a l'agricultura de precisió
 :::
 
 ::: {.hero-store-buttons}
@@ -34,13 +35,13 @@ AI-powered fruit size measurement for precision agriculture
 ::: {.section-light}
 ::: {.section-inner}
 
-## Measure. Decide. Optimize.
+## Mesura. Decideix. Optimitza.
 
-- Measure fruit diameter directly with your smartphone using images.
-- Analyse single or multiple fruits in the same image.
-- Replace manual measurements with an automated, AI-based approach.
-- Get instant results to support fruit thinning decisions.
-- Use a simple and fast tool designed for real-field conditions.
+- Mesura el calibre del fruit directament amb el teu telèfon mòbil usant imatges.
+- Analitza un o diversos fruits en la mateixa imatge.
+- Substitueix les mesures manuals per un enfocament automatitzat basat en IA.
+- Obtén resultats instantanis per donar suport a les decisions d'aclarida.
+- Usa una eina senzilla i ràpida dissenyada per a condicions reals de camp.
 
 :::
 :::
@@ -48,17 +49,17 @@ AI-powered fruit size measurement for precision agriculture
 ::: {.section-dark}
 ::: {.section-inner--wide}
 
-## How does it work?
+## Com funciona?
 
 ::: {.video-wrapper}
 ```{=html}
 <video autoplay muted playsinline loop>
-  <source src="../assets/videos/FruitMeasureApp.mp4" type="video/mp4"/>
+  <source src="assets/videos/FruitMeasureApp.mp4" type="video/mp4"/>
 </video>
 ```
 :::
 
-[For more information, download the FruitMeasureApp guide →](../assets/pdfs/Manual_usuari_EN.pdf){.guide-link}
+[Per a més informació, descarrega la guia de FruitMeasureApp →](assets/pdfs/Manual_usuari_CAT.pdf){.guide-link}
 
 :::
 :::
@@ -66,12 +67,12 @@ AI-powered fruit size measurement for precision agriculture
 ::: {.section-light}
 ::: {.section-inner}
 
-## Why it matters?
+## Per què és important?
 
-- Reduce manual measurement errors and variability.
-- Save time and labour in field workflows.
-- Enable data-driven fruit thinning decisions.
-- Accelerate the adoption of precision agriculture tools.
+- Reduir els errors de mesura manual i la variabilitat.
+- Estalviar temps i mà d'obra en els fluxos de treball en camp.
+- Facilitar les decisions d' aclarida basades en dades.
+- Accelerar l'adopció d'eines d'agricultura de precisió.
 
 :::
 :::

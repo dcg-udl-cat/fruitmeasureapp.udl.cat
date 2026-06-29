@@ -8,7 +8,8 @@ project:
 lang: en
 
 website:
-  site-url: "https://fruitmeasureapp.udl.cat" # for local test change it to "file:///..."
+  site-url: "file:///Users/jordimateofornes/Desktop/irta/fruitmeasureapp.udl.cat/docs" # for local test change it to "file:///..."
+  #site-url: "https://fruitmeasureapp.udl.cat" # for local test change it to "file:///..."
   favicon: assets/logos/logo.png
   search: true
   title: "FruitMeasureApp"
@@ -34,6 +35,6 @@ babelquarto:
       text: "CA"
     - name: es
       text: "ES"
-  mainlanguage: "en"
-  languages: ["ca", "es"]
+  mainlanguage: "ca"
+  languages: ["en", "es"]
 
