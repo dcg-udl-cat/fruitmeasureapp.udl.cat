@@ -18,8 +18,9 @@ toc: false
 Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre més en profunditat com funciona FruitMeasureApp.
 
 ::: {.resource-cta-group}
-[Descarrega la guia →](../assets/pdfs/Manual_usuari_CAT.pdf){.btn-store .btn-store--outline}
-[Visualitza el videotutorial →](../assets/videos/FruitMeasureApp.mp4){.btn-store .btn-store--outline}
+
+[Descarrega la guia →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/Manual_usuari_CAT.pdf){.btn-store .btn-store--outline}
+[Visualitza el videotutorial →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_CAT.mp4){.btn-store .btn-store--outline}
 :::
 
 :::

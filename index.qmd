@@ -54,12 +54,12 @@ Mesura del calibre del fruit amb IA per a l'agricultura de precisió
 ::: {.video-wrapper}
 ```{=html}
 <video autoplay muted playsinline loop>
-  <source src="assets/videos/FruitMeasureApp.mp4" type="video/mp4"/>
+  <source src="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureApp_CAT.mp4" type="video/mp4"/>
 </video>
 ```
 :::
 
-[Per a més informació, descarrega la guia de FruitMeasureApp →](assets/pdfs/Manual_usuari_CAT.pdf){.guide-link}
+[Per a més informació, descarrega la guia de FruitMeasureApp →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/Manual_usuari_CAT.pdf){.guide-link}
 
 :::
 :::
