@@ -34,7 +34,7 @@ AI-powered fruit size measurement to monitor your production
 ::: {.section-light}
 ::: {.section-inner}
 
-## Measure, decidí, optimize.
+## Measure, decide, optimize.
 
 - Measure apple size with your smartphone.
 - Analyse single or multiple fruits in the same image.
