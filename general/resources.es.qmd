@@ -30,14 +30,14 @@ Descarga la guía completa de usuario para resolver cualquier duda y entender m�
 ```{=html}
 <div class="about-hero">
   <div class="about-hero-image">
-    <img src="../assets/images/foto_soporte_FruitMeasureApp.jpg" alt="FruitMeasure Stick"/>
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasureStick"/>
   </div>
   <div class="about-hero-text">
-    <h2>FruitMeasure Stick</h2>
-    <p>El FruitMeasure Stick es necesario para capturar todas las fotos para FruitMeasureApp. Imprímelo con una impresora 3D y móntalolo siguiendo la guía.</p>
+    <h2>FruitMeasureStick</h2>
+    <p>Para utilizar FruitMeasureApp se necesita el FruitMeasureStick. Este accesorio se acopla al teléfono móvil y sirve como referencia para estimar el tamaño de las manzanas. Imprímelo con una impresora 3D y móntalo siguiendo la guía.</p>
     <div class="resource-stick-buttons">
-      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtener el archivo 3D</a>
-      <a href="#" class="btn-store btn-store--filled">Cómo montarlo</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_3D_files.zip" class="btn-store btn-store--filled">Obtener el archivo 3D</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/VideoTutorial_ES.mp4" class="btn-store btn-store--filled">Cómo montarlo</a>
     </div>
   </div>
 </div>
@@ -67,9 +67,11 @@ Descarga la guía completa de usuario para resolver cualquier duda y entender m�
 
 ## Explora el modelo de IA {style="text-align:center;"}
 
-::: {.model-intro}
-La aplicación utiliza una red neuronal convolucional (CNN) para la detección y segmentación de frutas, combinada con calibración geométrica mediante un marcador de referencia.
-:::
+- La aplicación integra una red neuronal convolucional (CNN) para la detección de frutos.
+- Una calibración geométrica mediante el marcador de referencia situado en el extremo del FruitMeasureStick permite medir los frutos con precisión.
+- La CNN ha sido entrenada con imágenes de 4.500 frutos durante cuatro campañas (2023-2026).
+- Permite seleccionar dos modelos de estimación: Corimbo (frutos pequeños agrupados) y Fruto (para manzanas individuales).
+
 
 ```{=html}
 <div class="section-gallery">
@@ -82,7 +84,7 @@ La aplicación utiliza una red neuronal convolucional (CNN) para la detección y
 ```
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
-[Repositorio oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+El código fuente se ha publicado en abierto en el [Repositorio oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
 :::
 
 :::

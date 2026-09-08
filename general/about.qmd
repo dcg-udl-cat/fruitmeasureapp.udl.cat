@@ -16,7 +16,7 @@ toc: false
     <img src="../assets/images/pexels-herry-11466481.jpg" alt="Poma a l'arbre"/>
   </div>
   <div class="about-hero-text">
-    <p>FruitMeasureApp és una aplicació mòbil basada en intel·ligència artificial dissenyada per estimar el calibre dels fruits directament a  partir d’imatges preses amb telèfons mòbils, donant suport a la presa de decisions en agricultura de precisió.</p>
+    <p>FruitMeasureApp és una aplicació mòbil basada en intel·ligència artificial dissenyada per estimar el calibre de les pomes directament a  partir d’imatges preses amb telèfons mòbils, donant suport a la presa de decisions en agricultura de precisió.</p>
     <p>Aquesta solució s’ha desenvolupat en el marc d’un projecte de recerca i demostració centrat en la validació i la transferència d'eines basades en IA al sector fructícola.</p>
   </div>
 </div>

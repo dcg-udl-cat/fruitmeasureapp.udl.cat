@@ -31,14 +31,14 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 ```{=html}
 <div class="about-hero">
   <div class="about-hero-image">
-    <img src="../assets/images/foto_soporte_FruitMeasureApp.jpg" alt="FruitMeasure Stick"/>
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasureStick"/>
   </div>
   <div class="about-hero-text">
-    <h2>FruitMeasure Stick</h2>
-    <p>El FruitMeasure Stick és necessari per capturar totes les fotos per a FruitMeasureApp. Imprimiu-lo amb una impressora 3D i munteu-lo seguint la guia.</p>
+    <h2>FruitMeasureStick</h2>
+    <p>Per utilitzar FruitMeasureApp es necessita el FruitMesaureStick. Aquest accessori s’acobla al telèfon mòbil i serveix com a referència per estimar la mida de les pomes. Imprimiu-lo amb una impressora 3D i munteu-lo seguint la guia.</p>
     <div class="resource-stick-buttons">
-      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Obtenir el fitxer 3D</a>
-      <a href="#" class="btn-store btn-store--filled">Com muntar-lo</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_3D_files.zip" class="btn-store btn-store--filled">Obtenir el fitxer 3D</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/VideoTutorial_CAT.mp4" class="btn-store btn-store--filled">Com muntar-lo</a>
     </div>
   </div>
 </div>
@@ -68,9 +68,12 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 
 ## Explora el model d'IA {style="text-align:center;"}
 
-::: {.model-intro}
-L'aplicació utilitza una xarxa neuronal convolucional (CNN) per a la detecció i segmentació de fruites, combinada amb calibratge geomètric mitjançant un marcador de referència.
-:::
+
+- L’aplicació integra una xarxa neuronal convolucional (CNN) per a la detecció de fruits.
+- Un calibratge geomètric mitjançant el marcador de referència situat a l’extrem del FruitMeasureStick permet mesurar els fruits de forma precisa.
+- La CNN s’ha entrenat amb imatges de 4500 fruits en quatre campanyes (2023-2026). 
+- Permet seleccionar dos models d’estimació: Corimbe (fruits petits agrupats) i Fruit (per pomes individuals).
+
 
 ```{=html}
 <div class="section-gallery">
@@ -83,7 +86,7 @@ L'aplicació utilitza una xarxa neuronal convolucional (CNN) per a la detecció 
 ```
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
-[Repositori oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+El codi font s’ha publicat en obert al  [Repositori oficial →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
 :::
 
 :::

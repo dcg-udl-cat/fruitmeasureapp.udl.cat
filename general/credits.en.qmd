@@ -13,7 +13,7 @@ toc: false
 
 ```{=html}
 <div class="credits-body">
-  <p><strong>FruitMeasureApp</strong> has been developed by the <a href="https://www.udl.cat/ca/">University of Lleida (UdL)</a> and the <a href="https://www.irta.cat/">Institute of Agrifood Research and Technology (IRTA)</a> within the framework of the demonstrative project <em>FruitMeasureApp: Validació i prototipatge d'una aplicació mòbil basada en IA per mesurar fruits en camp</em> (Activity co-financed by the EU through intervention 7201 of the PAC Strategic Plan 2023-2027).</p>
+  <p><strong>FruitMeasureApp</strong> has been developed by the <a href="https://www.udl.cat/ca/">University of Lleida (UdL)</a> and the <a href="https://www.irta.cat/">Institute of Agrifood Research and Technology (IRTA)</a> within the framework of the demonstrative project <em>FruitMeasureApp: Validació i prototipatge d'una aplicació mòbil basada en IA per mesurar fruits en camp</em> (Activity co-financed by the EU through intervention 7201 of the CAP Strategic Plan 2023-2027).</p>
 </div>
 ```
 

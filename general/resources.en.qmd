@@ -30,14 +30,14 @@ Get the complete user guide to resolve any doubts and understand more deeply how
 ```{=html}
 <div class="about-hero">
   <div class="about-hero-image">
-    <img src="../assets/images/foto_soporte_FruitMeasureApp.jpg" alt="FruitMeasure Stick"/>
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasureStick"/>
   </div>
   <div class="about-hero-text">
-    <h2>FruitMeasure Stick</h2>
-    <p>The FruitMeasure Stick is required to capture all the photos for the FruitMeasureApp. Print it with a 3D printer and assemble it following the guide.</p>
+    <h2>FruitMeasureStick</h2>
+    <p>FruitMeasureApp requires the FruitMeasureStick. This accessory attaches to the smartphone and provides a reference scale, enabling accurate estimation of apple size. Print it with a 3D printer and assemble it following the guide.</p>
     <div class="resource-stick-buttons">
-      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
-      <a href="#" class="btn-store btn-store--filled">How to assemble it</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_3D_files.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/VideoTutorial_EN.mp4" class="btn-store btn-store--filled">How to assemble it</a>
     </div>
   </div>
 </div>
@@ -67,9 +67,11 @@ Get the complete user guide to resolve any doubts and understand more deeply how
 
 ## Explore the AI model {style="text-align:center;"}
 
-::: {.model-intro}
-The app uses a convolutional neural network (CNN) for fruit detection and segmentation, combined with geometric calibration using a reference marker.
-:::
+- The application integrates a convolutional neural network (CNN) for fruit detection.
+- A geometric calibration using the reference marker located at the end of the FruitMeasureStick enables accurate fruit measurement.
+- The CNN has been trained using images of 4,500 fruits collected over four growing seasons (2023–2026).
+- It allows users to select between two estimation models: Cluster (small fruits growing in clusters) and Fruit (for individual apples).
+
 
 ```{=html}
 <div class="section-gallery">
@@ -82,7 +84,7 @@ The app uses a convolutional neural network (CNN) for fruit detection and segmen
 ```
 
 ::: {.section-light style="padding: 1rem 2rem 3rem; text-align:center;"}
-[Official repository →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
+The source code has been released as open source in the [Official repository →](https://github.com/GRAP-UdL-AT/FruitMeasureApp){.resource-link}
 :::
 
 :::

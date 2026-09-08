@@ -16,7 +16,7 @@ toc: false
     <img src="../assets/images/pexels-herry-11466481.jpg" alt="Apple on tree"/>
   </div>
   <div class="about-hero-text">
-    <p>FruitMeasureApp is a mobile application based on artificial intelligence designed to estimate fruit size directly from smartphone images, supporting decision-making in precision agriculture.</p>
+    <p>FruitMeasureApp is a mobile application based on artificial intelligence designed to estimate apple size directly from smartphone images, supporting decision-making in precision agriculture.</p>
     <p>This solution has been developed in the framework of a research and demonstration project focused on validating and transferring AI-based tools to the fruit sector.</p>
   </div>
 </div>

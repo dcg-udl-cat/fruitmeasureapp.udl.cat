@@ -16,7 +16,7 @@ toc: false
     <img src="../assets/images/pexels-herry-11466481.jpg" alt="Manzana en árbol"/>
   </div>
   <div class="about-hero-text">
-    <p>FruitMeasureApp es una aplicación móvil basada en inteligencia artificial diseñada para estimar el calibre de los frutos directamente a partir de imágenes tomadas con teléfonos móviles, apoyando la toma de decisiones en agricultura de precisión.</p>
+    <p>FruitMeasureApp es una aplicación móvil basada en inteligencia artificial diseñada para estimar el calibre de las manzanas directamente a partir de imágenes tomadas con teléfonos móviles, apoyando la toma de decisiones en agricultura de precisión.</p>
     <p>Esta solución se ha desarrollado en el marco de un proyecto de investigación y demostración centrado en la validación y transferencia de herramientas basadas en IA al sector frutícola.</p>
   </div>
 </div>
