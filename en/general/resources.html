@@ -29,9 +29,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-9357eb42894dd42c5c705cb95d42493a.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-b2698ef913867acf09bf0461a24c631f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script><link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-69925c89c731dacf1887b7abd158c2e7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-69925c89c731dacf1887b7abd158c2e7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-69925c89c731dacf1887b7abd158c2e7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1668861744b9cff7ec197ce8b7bc1b75.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1668861744b9cff7ec197ce8b7bc1b75.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1668861744b9cff7ec197ce8b7bc1b75.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,14 +128,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="section-light">
 <div class="about-hero">
   <div class="about-hero-image">
-    <img src="../assets/images/foto_soporte_FruitMeasureApp.jpg" alt="FruitMeasure Stick">
+    <img src="../assets/images/foto_soporte_FruitMeasureApp.png" alt="FruitMeasureStick">
 </div>
   <div class="about-hero-text">
-    <h2>FruitMeasure Stick</h2>
-    <p>The FruitMeasure Stick is required to capture all the photos for the FruitMeasureApp. Print it with a 3D printer and assemble it following the guide.</p>
+    <h2>FruitMeasureStick</h2>
+    <p>FruitMeasureApp requires the FruitMeasureStick. This accessory attaches to the smartphone and provides a reference scale, enabling accurate estimation of apple size. Print it with a 3D printer and assemble it following the guide.</p>
     <div class="resource-stick-buttons">
-      <a href="../assets/suport3D/FruitMeasureStick_3D_stl.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
-      <a href="#" class="btn-store btn-store--filled">How to assemble it</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_3D_files.zip" class="btn-store btn-store--filled">Get the 3D model file</a>
+      <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/VideoTutorial_EN.mp4" class="btn-store btn-store--filled">How to assemble it</a>
     </div>
   </div>
 </div>
@@ -153,16 +153,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="section-light section-model-top">
 <section id="explore-the-ai-model" class="section-inner--wide" style="text-align:center;"><h2 style="text-align:center;">Explore the AI model</h2>
-<div class="model-intro">
-<p>The app uses a convolutional neural network (CNN) for fruit detection and segmentation, combined with geometric calibration using a reference marker.</p>
-</div>
+<ul>
+<li>The application integrates a convolutional neural network (CNN) for fruit detection.</li>
+<li>A geometric calibration using the reference marker located at the end of the FruitMeasureStick enables accurate fruit measurement.</li>
+<li>The CNN has been trained using images of 4,500 fruits collected over four growing seasons (2023–2026).</li>
+<li>It allows users to select between two estimation models: Cluster (small fruits growing in clusters) and Fruit (for individual apples).</li>
+</ul>
 <div class="section-gallery">
   <div class="resource-gallery">
     <img src="../assets/images/resources/foto1.jpg" alt="App screenshot 1"><img src="../assets/images/resources/foto2.jpg" alt="App screenshot 2"><img src="../assets/images/resources/foto3.png" alt="App screenshot 3">
 </div>
 </div>
 <div class="section-light" style="padding: 1rem 2rem 3rem; text-align:center;">
-<p><a href="https://github.com/GRAP-UdL-AT/FruitMeasureApp" class="resource-link">Official repository →</a></p>
+<p>The source code has been released as open source in the <a href="https://github.com/GRAP-UdL-AT/FruitMeasureApp" class="resource-link">Official repository →</a></p>
 </div>
 </section>
 </div>
