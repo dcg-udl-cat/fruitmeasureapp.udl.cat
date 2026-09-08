@@ -17,7 +17,7 @@ hide-description: true
 # Bienvenidos a FruitMeasureApp
 
 ::: {.hero-subtitle}
-Medición del calibre del fruto con IA para la agricultura de precisión
+Medida de frutos con IA para el seguimiento de tu producción
 :::
 
 ::: {.hero-store-buttons}
@@ -35,13 +35,13 @@ Medición del calibre del fruto con IA para la agricultura de precisión
 ::: {.section-light}
 ::: {.section-inner}
 
-## Mide. Decide. Optimiza.
+## Mide, decidí, optimiza. 
 
-- Mide el calibre de los frutos directamente con tu teléfono móvil usando imágenes.
+- Mide el calibre de las manzanas con tu teléfono móvil.
 - Analiza uno o varios frutos en la misma imagen.
 - Sustituye las mediciones manuales por un enfoque automatizado basado en IA.
 - Obtén resultados instantáneos para apoyar las decisiones de aclareo.
-- Usa una herramienta sencilla y rápida diseñada para condiciones reales de campo.
+- Obtén resultados instantáneos para optimizar la toma de decisiones agronómicas (aclareo, riego o fertilización).
 
 :::
 :::
@@ -69,12 +69,12 @@ Medición del calibre del fruto con IA para la agricultura de precisión
 ::: {.section-light}
 ::: {.section-inner}
 
-## ¿Por qué es importante?
+## ¿Por qué es útil?
 
 - Reducir los errores de medición manual y la variabilidad.
 - Ahorrar tiempo y mano de obra en los flujos de trabajo en campo.
-- Facilitar las decisiones de aclareo basadas en datos.
-- Acelerar la adopción de herramientas de agricultura de precisión.
+- Facilitar la toma de decisiones de manejo agrícola (aclareo, riego y fertilización) basadas en datos.
+- Acelerar la digitalización de la agricultura y la adopción de herramientas de agricultura de precisión.
 
 :::
 :::

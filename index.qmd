@@ -17,7 +17,7 @@ hide-description: true
 # Benvinguts a FruitMeasureApp
 
 ::: {.hero-subtitle}
-Mesura del calibre del fruit amb IA per a l'agricultura de precisió
+Mesura de fruits amb IA per al seguiment de la teva producció
 :::
 
 ::: {.hero-store-buttons}
@@ -35,12 +35,12 @@ Mesura del calibre del fruit amb IA per a l'agricultura de precisió
 ::: {.section-light}
 ::: {.section-inner}
 
-## Mesura. Decideix. Optimitza.
+## Mesura, decideix, optimitza
 
-- Mesura el calibre del fruit directament amb el teu telèfon mòbil usant imatges.
+- Mesura el calibre de pomes amb el teu telèfon mòbil.
 - Analitza un o diversos fruits en la mateixa imatge.
 - Substitueix les mesures manuals per un enfocament automatitzat basat en IA.
-- Obtén resultats instantanis per donar suport a les decisions d'aclarida.
+- Obtén resultats instantanis per optimitzar decisions de maneig agronòmic (aclarida, reg o fertilització).
 - Usa una eina senzilla i ràpida dissenyada per a condicions reals de camp.
 
 :::
@@ -67,12 +67,12 @@ Mesura del calibre del fruit amb IA per a l'agricultura de precisió
 ::: {.section-light}
 ::: {.section-inner}
 
-## Per què és important?
+## Per què és útil?
 
 - Reduir els errors de mesura manual i la variabilitat.
 - Estalviar temps i mà d'obra en els fluxos de treball en camp.
-- Facilitar les decisions d' aclarida basades en dades.
-- Accelerar l'adopció d'eines d'agricultura de precisió.
+- Facilitar les decisions de maneig agrícola (aclarida, reg, fertilització) basades en dades.
+- Accelerar la digitalització de l’agricultura i l’adopció d’eines d’agricultura de precisió.
 
 :::
 :::

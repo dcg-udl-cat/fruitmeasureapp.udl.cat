@@ -16,7 +16,7 @@ hide-description: true
 # Welcome to FruitMeasureApp
 
 ::: {.hero-subtitle}
-AI-powered fruit size measurement for precision agriculture
+AI-powered fruit size measurement to monitor your production
 :::
 
 ::: {.hero-store-buttons}
@@ -34,12 +34,12 @@ AI-powered fruit size measurement for precision agriculture
 ::: {.section-light}
 ::: {.section-inner}
 
-## Measure. Decide. Optimize.
+## Measure, decidí, optimize.
 
-- Measure fruit diameter directly with your smartphone using images.
+- Measure apple size with your smartphone.
 - Analyse single or multiple fruits in the same image.
 - Replace manual measurements with an automated, AI-based approach.
-- Get instant results to support fruit thinning decisions.
+- Get instant results to optimize agronomic management decisions (thinning, irrigation, or fertilization).
 - Use a simple and fast tool designed for real-field conditions.
 
 :::
@@ -66,12 +66,12 @@ AI-powered fruit size measurement for precision agriculture
 ::: {.section-light}
 ::: {.section-inner}
 
-## Why it matters?
+## Why is it useful?
 
 - Reduce manual measurement errors and variability.
 - Save time and labour in field workflows.
-- Enable data-driven fruit thinning decisions.
-- Accelerate the adoption of precision agriculture tools.
+- Support data-driven agricultural management decisions (thinning, irrigation, and fertilization).
+- Accelerate the digitalization of agriculture and the adoption of precision agriculture tools.
 
 :::
 :::
