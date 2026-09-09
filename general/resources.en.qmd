@@ -19,7 +19,7 @@ Get the complete user guide to resolve any doubts and understand more deeply how
 
 ::: {.resource-cta-group}
 [Download the guide →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/Manual_usuari_EN.pdf){.btn-store .btn-store--outline}
-[Watch the video tutorial →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_EN.mp4){.btn-store .btn-store--outline}
+[Watch the video tutorial →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureApp_EN.mp4){.btn-store .btn-store--outline}
 :::
 
 :::

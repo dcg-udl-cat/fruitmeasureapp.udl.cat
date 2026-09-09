@@ -20,7 +20,7 @@ Descarrega la guia completa de l'usuari per resoldre qualsevol dubte i entendre 
 ::: {.resource-cta-group}
 
 [Descarrega la guia →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/Manual_usuari_CAT.pdf){.btn-store .btn-store--outline}
-[Visualitza el videotutorial →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_CAT.mp4){.btn-store .btn-store--outline}
+[Visualitza el videotutorial →](https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureApp_CAT.mp4){.btn-store .btn-store--outline}
 :::
 
 :::
