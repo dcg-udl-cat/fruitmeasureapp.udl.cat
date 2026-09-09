@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="obté-la-guia-dusuari" class="section-inner"><h2>Obté la guia d’usuari</h2>
 <p>Descarrega la guia completa de l’usuari per resoldre qualsevol dubte i entendre més en profunditat com funciona FruitMeasureApp.</p>
 <div class="resource-cta-group">
-<p><a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/Manual_usuari_CAT.pdf" class="btn-store btn-store--outline">Descarrega la guia →</a> <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureStick_CAT.mp4" class="btn-store btn-store--outline">Visualitza el videotutorial →</a></p>
+<p><a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/Manual_usuari_CAT.pdf" class="btn-store btn-store--outline">Descarrega la guia →</a> <a href="https://github.com/dcg-udl-cat/fruitmeasureapp.udl.cat/releases/download/1.0/FruitMeasureApp_CAT.mp4" class="btn-store btn-store--outline">Visualitza el videotutorial →</a></p>
 </div>
 </section>
 </div>
@@ -589,6 +589,17 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
   </div>
-</footer>
+</footer><script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href]").forEach(function (link) {
+    var href = link.getAttribute("href");
+    // Only external links (absolute http/https to a different host)
+    if (/^https?:\/\//i.test(href) && link.hostname !== window.location.hostname) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
+  });
+});
+</script>
 </body>
 </html>
