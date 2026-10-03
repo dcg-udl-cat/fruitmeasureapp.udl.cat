@@ -35,7 +35,7 @@ Medida de frutos con IA para el seguimiento de tu producción
 ::: {.section-light}
 ::: {.section-inner}
 
-## Mide, decidí, optimiza. 
+## Mide, decide, optimiza. 
 
 - Mide el calibre de las manzanas con tu teléfono móvil.
 - Analiza uno o varios frutos en la misma imagen.
