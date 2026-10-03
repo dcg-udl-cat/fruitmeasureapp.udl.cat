@@ -1,15 +1,15 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/posts/10_03_2026_first_release.html"
-    ]
-  },
-  {
     "listing": "/team/index.html",
     "items": [
       "/team/member1.html",
       "/team/member2.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/10_03_2026_first_release.html"
     ]
   }
 ]

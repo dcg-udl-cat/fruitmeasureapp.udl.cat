@@ -21,6 +21,13 @@
     "text": "What’s next\nFuture updates will focus on:\n\nImproving accuracy\n\nExpanding supported crops\n\nEnhancing usability in field conditions"
   },
   {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "News",
+    "section": "",
+    "text": "News\nLatest updates from FruitMeasureApp, including releases, research progress, and field testing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst public release of FruitMeasureApp\n\n\n\nrelease\n\n\n\nFruitMeasureApp is now available on mobile platforms.\n\n\n\n\n\n10 de març 2026\n\n\n\n\n\nCap element coincident"
+  },
+  {
     "objectID": "project/changelog.html",
     "href": "project/changelog.html",
     "title": "Changelog",
@@ -47,12 +54,5 @@
     "title": "Changelog",
     "section": "TODO",
     "text": "TODO\n\nApp\n\nConfirm exact release date\n\nAdd Google Play link\n\nAdd App Store link\n\nSpecify supported Android/iOS versions\n\nAdd screenshots of the released version\n\n\n\nModel\n\nSpecify model architecture.\nAdd dataset description (size, type, annotation process)\n\nProvide evaluation metrics (e.g., error in mm, accuracy)\n\nDocument training procedure\n\nAdd inference performance details (speed, device requirements)\n\n\n\nFeatures\n\nList supported fruit types\n\nClarify limitations (lighting, occlusion, distance constraints)\n\nAdd calibration details (marker size, assumptions)\n\n\n\nHardware (Support)\n\nAdd STL download links\n\nAdd assembly instructions\n\nDocument recommended usage setup\n\n\n\nDocumentation\n\nLink to full documentation\n\nAdd usage tutorial\n\nAdd FAQ section"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "News",
-    "section": "",
-    "text": "News\nLatest updates from FruitMeasureApp, including releases, research progress, and field testing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst public release of FruitMeasureApp\n\n\n\nrelease\n\n\n\nFruitMeasureApp is now available on mobile platforms.\n\n\n\n\n\n10 de març 2026\n\n\n\n\n\nCap element coincident"
   }
 ]
